@@ -1,0 +1,1741 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "number": "03",
+            "title": "Functions",
+            "start": 0.0,
+            "end": 3.7600000000000002,
+            "text": " Hey there, how's it going everybody? In this video, we'll be learning about functions."
+        },
+        {
+            "id": 1,
+            "number": "03",
+            "title": "Functions",
+            "start": 3.7600000000000002,
+            "end": 9.040000000000001,
+            "text": " Now functions are basically some instructions packaged together that perform a specific task."
+        },
+        {
+            "id": 2,
+            "number": "03",
+            "title": "Functions",
+            "start": 9.040000000000001,
+            "end": 14.32,
+            "text": " So let's create our first function and see why these are so beneficial. Now to create a function,"
+        },
+        {
+            "id": 3,
+            "number": "03",
+            "title": "Functions",
+            "start": 14.32,
+            "end": 19.44,
+            "text": " we'll use the def keyword, which I believe stands for definition. And let's just make a simple"
+        },
+        {
+            "id": 4,
+            "number": "03",
+            "title": "Functions",
+            "start": 19.44,
+            "end": 25.04,
+            "text": " function here to get started. I'll call this hello funk. Now we have parentheses there because that"
+        },
+        {
+            "id": 5,
+            "number": "03",
+            "title": "Functions",
+            "start": 25.04,
+            "end": 30.24,
+            "text": " is where our parameters will go when we add those in, but we don't have any parameters just yet."
+        },
+        {
+            "id": 6,
+            "number": "03",
+            "title": "Functions",
+            "start": 30.24,
+            "end": 36.0,
+            "text": " So that will be empty for now. Now it is possible to write a function and not have any code in it,"
+        },
+        {
+            "id": 7,
+            "number": "03",
+            "title": "Functions",
+            "start": 36.0,
+            "end": 41.68,
+            "text": " but we can't leave it completely blank. Uh, but if we want to fill this function in later,"
+        },
+        {
+            "id": 8,
+            "number": "03",
+            "title": "Functions",
+            "start": 41.68,
+            "end": 46.879999999999995,
+            "text": " then we can use this pass keyword. And basically that pass keyword is saying that we don't want"
+        },
+        {
+            "id": 9,
+            "number": "03",
+            "title": "Functions",
+            "start": 46.879999999999995,
+            "end": 52.08,
+            "text": " to do anything with this for now, but it won't throw any errors for leaving it blank. So if we"
+        },
+        {
+            "id": 10,
+            "number": "03",
+            "title": "Functions",
+            "start": 52.08,
+            "end": 59.04,
+            "text": " want to run our function, then we can just say, hello, underscore funk, and put in these parentheses."
+        },
+        {
+            "id": 11,
+            "number": "03",
+            "title": "Functions",
+            "start": 59.04,
+            "end": 64.0,
+            "text": " And we need to add those parentheses after the function in order to execute it. If we don't have"
+        },
+        {
+            "id": 12,
+            "number": "03",
+            "title": "Functions",
+            "start": 64.0,
+            "end": 70.4,
+            "text": " those parentheses there, then it'll be equal to the function itself. Um, so let's actually see"
+        },
+        {
+            "id": 13,
+            "number": "03",
+            "title": "Functions",
+            "start": 70.4,
+            "end": 75.75999999999999,
+            "text": " what that looks like. So I'm going to print out that hello function without the parentheses in"
+        },
+        {
+            "id": 14,
+            "number": "03",
+            "title": "Functions",
+            "start": 75.75999999999999,
+            "end": 80.56,
+            "text": " place, uh, which means that we're not executing the function. So let me run that. And we can see"
+        },
+        {
+            "id": 15,
+            "number": "03",
+            "title": "Functions",
+            "start": 80.56,
+            "end": 86.32000000000001,
+            "text": " when we printed that out, that it prints out that this is a function in a certain location in memory,"
+        },
+        {
+            "id": 16,
+            "number": "03",
+            "title": "Functions",
+            "start": 86.32000000000001,
+            "end": 93.28,
+            "text": " but it didn't execute the function. So to execute it, then we add in these parentheses. So now if I"
+        },
+        {
+            "id": 17,
+            "number": "03",
+            "title": "Functions",
+            "start": 93.28,
+            "end": 98.4,
+            "text": " run this, then now it just gives us none because we're not doing anything with this function yet."
+        },
+        {
+            "id": 18,
+            "number": "03",
+            "title": "Functions",
+            "start": 98.4,
+            "end": 104.88,
+            "text": " And it doesn't have a return value. So let's go ahead and put some code into our function. So"
+        },
+        {
+            "id": 19,
+            "number": "03",
+            "title": "Functions",
+            "start": 104.88,
+            "end": 110.72,
+            "text": " first we'll just put in a print statement and we'll just print out some text that says,"
+        },
+        {
+            "id": 20,
+            "number": "03",
+            "title": "Functions",
+            "start": 110.72,
+            "end": 115.44,
+            "text": " hello, function with an exclamation point. And now that we're actually running that print statement"
+        },
+        {
+            "id": 21,
+            "number": "03",
+            "title": "Functions",
+            "start": 115.44,
+            "end": 122.32,
+            "text": " from within the function, we don't need to print out that executed function. We can just execute"
+        },
+        {
+            "id": 22,
+            "number": "03",
+            "title": "Functions",
+            "start": 122.32,
+            "end": 126.96,
+            "text": " that function and it should run that print statement. So we'll run that. So we can see that"
+        },
+        {
+            "id": 23,
+            "number": "03",
+            "title": "Functions",
+            "start": 126.96,
+            "end": 132.4,
+            "text": " we executed our function here. It came within our function and ran our print statement. Now,"
+        },
+        {
+            "id": 24,
+            "number": "03",
+            "title": "Functions",
+            "start": 132.4,
+            "end": 137.12,
+            "text": " one benefit of functions is that they allow us to reuse code without repeating ourselves."
+        },
+        {
+            "id": 25,
+            "number": "03",
+            "title": "Functions",
+            "start": 137.12,
+            "end": 141.76,
+            "text": " So let's say for example, that we had to print out some text in several locations throughout"
+        },
+        {
+            "id": 26,
+            "number": "03",
+            "title": "Functions",
+            "start": 141.76,
+            "end": 147.28,
+            "text": " our program. So it might look something like this. So let me copy this and I'll comment out our"
+        },
+        {
+            "id": 27,
+            "number": "03",
+            "title": "Functions",
+            "start": 147.92000000000002,
+            "end": 153.6,
+            "text": " function execution for now. And I'm just going to paste this in about four times. So now if we run"
+        },
+        {
+            "id": 28,
+            "number": "03",
+            "title": "Functions",
+            "start": 153.6,
+            "end": 159.6,
+            "text": " this, then as we expect, it prints out our four messages. Now imagine our boss came to us and"
+        },
+        {
+            "id": 29,
+            "number": "03",
+            "title": "Functions",
+            "start": 159.6,
+            "end": 164.79999999999998,
+            "text": " told us that the text was a little bit off and that we didn't want to have an exclamation point"
+        },
+        {
+            "id": 30,
+            "number": "03",
+            "title": "Functions",
+            "start": 164.79999999999998,
+            "end": 170.07999999999998,
+            "text": " at the end of the string. Well, the way that we have it now, we'd have to come in here and change"
+        },
+        {
+            "id": 31,
+            "number": "03",
+            "title": "Functions",
+            "start": 170.07999999999998,
+            "end": 176.56,
+            "text": " all of those manually. So I'd come in and change all of these messages to have a period instead."
+        },
+        {
+            "id": 32,
+            "number": "03",
+            "title": "Functions",
+            "start": 176.56,
+            "end": 181.44,
+            "text": " Now that was only four changes to make there, but in some instances that can be in hundreds"
+        },
+        {
+            "id": 33,
+            "number": "03",
+            "title": "Functions",
+            "start": 181.44,
+            "end": 187.04,
+            "text": " of locations in multiple different files. So that's the first benefit of functions. It allows"
+        },
+        {
+            "id": 34,
+            "number": "03",
+            "title": "Functions",
+            "start": 187.04,
+            "end": 193.12,
+            "text": " us to put code with a specific purpose into a single location. So instead of printing those"
+        },
+        {
+            "id": 35,
+            "number": "03",
+            "title": "Functions",
+            "start": 193.12,
+            "end": 200.48,
+            "text": " four statements, what we can instead do is run our function four times. So I will remove that"
+        },
+        {
+            "id": 36,
+            "number": "03",
+            "title": "Functions",
+            "start": 200.48,
+            "end": 206.16,
+            "text": " and uncomment our function, and we're going to execute this four different times. So now if we"
+        },
+        {
+            "id": 37,
+            "number": "03",
+            "title": "Functions",
+            "start": 206.16,
+            "end": 211.51999999999998,
+            "text": " run that, then we can see that it ran our function four times and executed our print statement four"
+        },
+        {
+            "id": 38,
+            "number": "03",
+            "title": "Functions",
+            "start": 211.51999999999998,
+            "end": 216.64,
+            "text": " different times. But now if our boss came to us and asked us to remove that exclamation point,"
+        },
+        {
+            "id": 39,
+            "number": "03",
+            "title": "Functions",
+            "start": 216.79999999999998,
+            "end": 221.35999999999999,
+            "text": " it doesn't matter if this is spread out over a hundred different lines or a hundred different"
+        },
+        {
+            "id": 40,
+            "number": "03",
+            "title": "Functions",
+            "start": 221.35999999999999,
+            "end": 227.44,
+            "text": " locations. We can just update it in this one spot. So I can change this to a period. And now"
+        },
+        {
+            "id": 41,
+            "number": "03",
+            "title": "Functions",
+            "start": 227.44,
+            "end": 232.48,
+            "text": " if we run this, then we can see that those changes are seen everywhere that the function is called."
+        },
+        {
+            "id": 42,
+            "number": "03",
+            "title": "Functions",
+            "start": 232.48,
+            "end": 238.72,
+            "text": " Now this is called keeping your code dry, which stands for don't repeat yourself. It's a common"
+        },
+        {
+            "id": 43,
+            "number": "03",
+            "title": "Functions",
+            "start": 238.72,
+            "end": 243.51999999999998,
+            "text": " mistake for people new to programming to repeat the same things throughout their code. When really"
+        },
+        {
+            "id": 44,
+            "number": "03",
+            "title": "Functions",
+            "start": 243.52,
+            "end": 248.56,
+            "text": " they could either put their code into certain variables or functions so that it's in a single"
+        },
+        {
+            "id": 45,
+            "number": "03",
+            "title": "Functions",
+            "start": 248.56,
+            "end": 254.64000000000001,
+            "text": " location. So we saw earlier that since we aren't returning anything from our function, it was"
+        },
+        {
+            "id": 46,
+            "number": "03",
+            "title": "Functions",
+            "start": 254.64000000000001,
+            "end": 261.44,
+            "text": " actually equal to none. So what does it mean for our function to return something? Now this is where"
+        },
+        {
+            "id": 47,
+            "number": "03",
+            "title": "Functions",
+            "start": 261.44,
+            "end": 266.88,
+            "text": " functions become really powerful because it allows us to operate on some data and then pass the"
+        },
+        {
+            "id": 48,
+            "number": "03",
+            "title": "Functions",
+            "start": 266.88,
+            "end": 272.88,
+            "text": " result to whatever called our function. So instead of printing the string, hello function within here,"
+        },
+        {
+            "id": 49,
+            "number": "03",
+            "title": "Functions",
+            "start": 272.88,
+            "end": 278.88,
+            "text": " let's instead return this. Okay. So what does this mean exactly? This means that when we execute"
+        },
+        {
+            "id": 50,
+            "number": "03",
+            "title": "Functions",
+            "start": 278.88,
+            "end": 284.96,
+            "text": " our function, it's actually going to be equal to our return value. So these executed functions here"
+        },
+        {
+            "id": 51,
+            "number": "03",
+            "title": "Functions",
+            "start": 284.96,
+            "end": 291.04,
+            "text": " are actually equal to the string hello function. So right now, if we run this, then it doesn't"
+        },
+        {
+            "id": 52,
+            "number": "03",
+            "title": "Functions",
+            "start": 291.04,
+            "end": 297.84,
+            "text": " give us any results because it's just a string that we're not doing anything with. But if instead"
+        },
+        {
+            "id": 53,
+            "number": "03",
+            "title": "Functions",
+            "start": 297.84,
+            "end": 304.79999999999995,
+            "text": " we print this, so let me print that executed function. And if we run that, then we can see"
+        },
+        {
+            "id": 54,
+            "number": "03",
+            "title": "Functions",
+            "start": 304.79999999999995,
+            "end": 311.28,
+            "text": " that it prints out our string. So basically think of a function as a machine that takes input and"
+        },
+        {
+            "id": 55,
+            "number": "03",
+            "title": "Functions",
+            "start": 311.28,
+            "end": 317.03999999999996,
+            "text": " produces a result. When you execute a function, you can think of it almost like a black box."
+        },
+        {
+            "id": 56,
+            "number": "03",
+            "title": "Functions",
+            "start": 317.03999999999996,
+            "end": 321.67999999999995,
+            "text": " You don't need to know exactly how it's doing what it's doing. You're mainly concerned about"
+        },
+        {
+            "id": 57,
+            "number": "03",
+            "title": "Functions",
+            "start": 321.67999999999995,
+            "end": 327.59999999999997,
+            "text": " the input and the return value. So in this simple example here, we don't have any input and we can"
+        },
+        {
+            "id": 58,
+            "number": "03",
+            "title": "Functions",
+            "start": 327.6,
+            "end": 333.04,
+            "text": " see that the return value is a string. Now don't get me wrong. It's useful to know what a function"
+        },
+        {
+            "id": 59,
+            "number": "03",
+            "title": "Functions",
+            "start": 333.04,
+            "end": 338.8,
+            "text": " is doing, but when you're first getting started, don't get caught up on understanding every detail"
+        },
+        {
+            "id": 60,
+            "number": "03",
+            "title": "Functions",
+            "start": 338.8,
+            "end": 345.20000000000005,
+            "text": " of what every function does. Just focus on the input and what's returned. So for example, when"
+        },
+        {
+            "id": 61,
+            "number": "03",
+            "title": "Functions",
+            "start": 345.20000000000005,
+            "end": 354.56,
+            "text": " we call the LEN function on a string. So if I print out LEN of this string test, if I run this,"
+        },
+        {
+            "id": 62,
+            "number": "03",
+            "title": "Functions",
+            "start": 354.56,
+            "end": 360.32,
+            "text": " then as we saw in a previous video, this just returns an integer that is the number of characters"
+        },
+        {
+            "id": 63,
+            "number": "03",
+            "title": "Functions",
+            "start": 360.32,
+            "end": 366.48,
+            "text": " in our string. So we have no idea what the code that produces that result looks like, but we do"
+        },
+        {
+            "id": 64,
+            "number": "03",
+            "title": "Functions",
+            "start": 366.48,
+            "end": 371.68,
+            "text": " know that we passed in a string and that it returned this integer. And we'll see why here in a bit,"
+        },
+        {
+            "id": 65,
+            "number": "03",
+            "title": "Functions",
+            "start": 371.68,
+            "end": 378.16,
+            "text": " why looking at functions in this way will help you become better when working with Python, because we"
+        },
+        {
+            "id": 66,
+            "number": "03",
+            "title": "Functions",
+            "start": 378.16,
+            "end": 383.6,
+            "text": " can treat the return value just like the data type that it is. And understanding this will allow you"
+        },
+        {
+            "id": 67,
+            "number": "03",
+            "title": "Functions",
+            "start": 383.6,
+            "end": 390.16,
+            "text": " to chain together some functionality. So we know our hello function returns a string, so we can"
+        },
+        {
+            "id": 68,
+            "number": "03",
+            "title": "Functions",
+            "start": 390.16,
+            "end": 395.84000000000003,
+            "text": " treat that executed function just like a string. So if we remember back to our string methods,"
+        },
+        {
+            "id": 69,
+            "number": "03",
+            "title": "Functions",
+            "start": 395.84000000000003,
+            "end": 402.56,
+            "text": " remember that we can uppercase a string with dot upper. So really we can take this executed function"
+        },
+        {
+            "id": 70,
+            "number": "03",
+            "title": "Functions",
+            "start": 402.56,
+            "end": 409.36,
+            "text": " and just chain dot upper onto the end of it. So now if we run this, now we can see that our"
+        },
+        {
+            "id": 71,
+            "number": "03",
+            "title": "Functions",
+            "start": 409.36,
+            "end": 414.48,
+            "text": " executed function returned the string hello function, and then we were able to use the"
+        },
+        {
+            "id": 72,
+            "number": "03",
+            "title": "Functions",
+            "start": 414.48,
+            "end": 421.52000000000004,
+            "text": " string method upper on that returned value to uppercase the string. Okay, so now let's look at"
+        },
+        {
+            "id": 73,
+            "number": "03",
+            "title": "Functions",
+            "start": 421.52000000000004,
+            "end": 428.24,
+            "text": " how we can pass arguments to our function. And real quick, I'm going to remove that dot upper method."
+        },
+        {
+            "id": 74,
+            "number": "03",
+            "title": "Functions",
+            "start": 428.24,
+            "end": 433.44,
+            "text": " So to be able to pass arguments to our function, we'll need to create some parameters here within"
+        },
+        {
+            "id": 75,
+            "number": "03",
+            "title": "Functions",
+            "start": 433.44,
+            "end": 439.52,
+            "text": " our parentheses. So let's say that we wanted to customize the greeting that our function returns."
+        },
+        {
+            "id": 76,
+            "number": "03",
+            "title": "Functions",
+            "start": 439.52,
+            "end": 446.56,
+            "text": " So let's create a parameter called greeting. And now within our function, we'll return a string"
+        },
+        {
+            "id": 77,
+            "number": "03",
+            "title": "Functions",
+            "start": 446.56,
+            "end": 453.84,
+            "text": " where we use that greeting instead of our hello text that we had before. So now I'll just pass"
+        },
+        {
+            "id": 78,
+            "number": "03",
+            "title": "Functions",
+            "start": 453.84,
+            "end": 460.48,
+            "text": " this in with a dot format. So now before we run this, we have to pass in that greeting argument"
+        },
+        {
+            "id": 79,
+            "number": "03",
+            "title": "Functions",
+            "start": 460.48,
+            "end": 465.6,
+            "text": " when we execute our function. If we don't, then we'll get an error. So actually, let's go ahead"
+        },
+        {
+            "id": 80,
+            "number": "03",
+            "title": "Functions",
+            "start": 465.6,
+            "end": 472.56,
+            "text": " and run this and see this error. So we can see that when we ran that, it says that hello func is"
+        },
+        {
+            "id": 81,
+            "number": "03",
+            "title": "Functions",
+            "start": 472.56,
+            "end": 478.56,
+            "text": " missing one required positional argument greeting. So let's pass in that greeting argument to our"
+        },
+        {
+            "id": 82,
+            "number": "03",
+            "title": "Functions",
+            "start": 478.56,
+            "end": 484.64000000000004,
+            "text": " hello function. And to do that, we can just pass it in directly here when we call our function."
+        },
+        {
+            "id": 83,
+            "number": "03",
+            "title": "Functions",
+            "start": 484.64,
+            "end": 491.12,
+            "text": " So I'm just going to pass in a high as our string. So now if we run this, then we can see that when"
+        },
+        {
+            "id": 84,
+            "number": "03",
+            "title": "Functions",
+            "start": 491.12,
+            "end": 498.0,
+            "text": " we passed in that string high into our function, that it set that greeting variable equal to the"
+        },
+        {
+            "id": 85,
+            "number": "03",
+            "title": "Functions",
+            "start": 498.0,
+            "end": 504.47999999999996,
+            "text": " string high, and then returned the string high function. Now this greeting variable doesn't"
+        },
+        {
+            "id": 86,
+            "number": "03",
+            "title": "Functions",
+            "start": 504.47999999999996,
+            "end": 510.64,
+            "text": " affect any variables outside of the function. Its scope is only local to the function, which is nice"
+        },
+        {
+            "id": 87,
+            "number": "03",
+            "title": "Functions",
+            "start": 510.64,
+            "end": 516.88,
+            "text": " because we don't have to worry about it affecting anything we don't want it to affect. So if you"
+        },
+        {
+            "id": 88,
+            "number": "03",
+            "title": "Functions",
+            "start": 516.88,
+            "end": 522.56,
+            "text": " want to learn more about Python scope, then I do have a detailed video going in depth as to how"
+        },
+        {
+            "id": 89,
+            "number": "03",
+            "title": "Functions",
+            "start": 522.56,
+            "end": 527.04,
+            "text": " that works exactly. And I'll leave a link to that video and the description section below."
+        },
+        {
+            "id": 90,
+            "number": "03",
+            "title": "Functions",
+            "start": 527.04,
+            "end": 532.56,
+            "text": " Okay, so right now this greeting parameter is a required argument, and that is because it doesn't"
+        },
+        {
+            "id": 91,
+            "number": "03",
+            "title": "Functions",
+            "start": 532.56,
+            "end": 538.4,
+            "text": " have a default value. Now, if we had a default value, then it would just fall back to the default"
+        },
+        {
+            "id": 92,
+            "number": "03",
+            "title": "Functions",
+            "start": 538.4,
+            "end": 544.3199999999999,
+            "text": " value whenever we didn't pass that argument in. So let's see an example of this. So let's say that"
+        },
+        {
+            "id": 93,
+            "number": "03",
+            "title": "Functions",
+            "start": 544.3199999999999,
+            "end": 550.4,
+            "text": " we also want to be able to pass a name to our hello function, and it will return a greeting"
+        },
+        {
+            "id": 94,
+            "number": "03",
+            "title": "Functions",
+            "start": 550.4,
+            "end": 557.76,
+            "text": " and the name. So we can add that to our parameters by putting in a comma here and saying that we also"
+        },
+        {
+            "id": 95,
+            "number": "03",
+            "title": "Functions",
+            "start": 557.76,
+            "end": 564.3199999999999,
+            "text": " want to accept this name parameter. But let's say that if no name is passed in, then we want to have"
+        },
+        {
+            "id": 96,
+            "number": "03",
+            "title": "Functions",
+            "start": 564.4000000000001,
+            "end": 572.1600000000001,
+            "text": " a default value of you. So we can just say name is equal to you. And now let's add that to our"
+        },
+        {
+            "id": 97,
+            "number": "03",
+            "title": "Functions",
+            "start": 572.1600000000001,
+            "end": 579.6800000000001,
+            "text": " return string. So I'll put in a comma space and then another placeholder, and we'll pass in that"
+        },
+        {
+            "id": 98,
+            "number": "03",
+            "title": "Functions",
+            "start": 579.6800000000001,
+            "end": 585.44,
+            "text": " name. So what this is going to do is it'll return a greeting and a name separated by a comma and a"
+        },
+        {
+            "id": 99,
+            "number": "03",
+            "title": "Functions",
+            "start": 585.44,
+            "end": 591.7600000000001,
+            "text": " space. So if we run this, then we can see that even though we didn't pass in a value for the"
+        },
+        {
+            "id": 100,
+            "number": "03",
+            "title": "Functions",
+            "start": 591.76,
+            "end": 597.6,
+            "text": " name argument, when we executed this function, it didn't throw an error and instead use the default"
+        },
+        {
+            "id": 101,
+            "number": "03",
+            "title": "Functions",
+            "start": 597.6,
+            "end": 603.76,
+            "text": " value that we specified as you. But if we want to pass in a value, then it will use that value"
+        },
+        {
+            "id": 102,
+            "number": "03",
+            "title": "Functions",
+            "start": 603.76,
+            "end": 611.36,
+            "text": " instead. So when we execute this function, if I was to say name is equal to, and we'll say Corey and"
+        },
+        {
+            "id": 103,
+            "number": "03",
+            "title": "Functions",
+            "start": 611.36,
+            "end": 615.92,
+            "text": " run that, but now we can see that printed out the greeting with the name that we passed in."
+        },
+        {
+            "id": 104,
+            "number": "03",
+            "title": "Functions",
+            "start": 616.88,
+            "end": 622.7199999999999,
+            "text": " Now your required positional arguments have to come before your keyword arguments. Now,"
+        },
+        {
+            "id": 105,
+            "number": "03",
+            "title": "Functions",
+            "start": 622.7199999999999,
+            "end": 627.36,
+            "text": " if you try to create a function with those out of order, then it's going to give you an error."
+        },
+        {
+            "id": 106,
+            "number": "03",
+            "title": "Functions",
+            "start": 627.36,
+            "end": 632.3199999999999,
+            "text": " Now, this is a little more advanced topic that trips a lot of people up, but at some point,"
+        },
+        {
+            "id": 107,
+            "number": "03",
+            "title": "Functions",
+            "start": 632.3199999999999,
+            "end": 638.3199999999999,
+            "text": " you'll probably run across a function in Python that looks something like this. So I'll say"
+        },
+        {
+            "id": 108,
+            "number": "03",
+            "title": "Functions",
+            "start": 638.32,
+            "end": 646.6400000000001,
+            "text": " deaf student info, and you might see something where you see this star ARGs and star star"
+        },
+        {
+            "id": 109,
+            "number": "03",
+            "title": "Functions",
+            "start": 646.6400000000001,
+            "end": 654.08,
+            "text": " quarks. And so let me just go ahead. And within this new function here, I will print out ARGs and"
+        },
+        {
+            "id": 110,
+            "number": "03",
+            "title": "Functions",
+            "start": 654.08,
+            "end": 660.0,
+            "text": " I'll also print out quarks. So let's not really worry about this function name for now. It's the"
+        },
+        {
+            "id": 111,
+            "number": "03",
+            "title": "Functions",
+            "start": 660.0,
+            "end": 666.5600000000001,
+            "text": " arguments that I want to focus on. So seeing this star ARGs and star star quarks can seem confusing"
+        },
+        {
+            "id": 112,
+            "number": "03",
+            "title": "Functions",
+            "start": 666.56,
+            "end": 673.5999999999999,
+            "text": " at first, but basically all it's doing is allowing us to accept an arbitrary number of positional or"
+        },
+        {
+            "id": 113,
+            "number": "03",
+            "title": "Functions",
+            "start": 673.5999999999999,
+            "end": 679.92,
+            "text": " keyword arguments. So for example, let's say that this student info function takes positional"
+        },
+        {
+            "id": 114,
+            "number": "03",
+            "title": "Functions",
+            "start": 679.92,
+            "end": 685.52,
+            "text": " arguments that represent the classes that the student is taking. Plus the keyword arguments"
+        },
+        {
+            "id": 115,
+            "number": "03",
+            "title": "Functions",
+            "start": 685.52,
+            "end": 691.28,
+            "text": " passed in will be random information about the student. So you can see in both of those examples,"
+        },
+        {
+            "id": 116,
+            "number": "03",
+            "title": "Functions",
+            "start": 691.28,
+            "end": 696.72,
+            "text": " we don't know how many of these positional or keyword arguments there will be. And that's why"
+        },
+        {
+            "id": 117,
+            "number": "03",
+            "title": "Functions",
+            "start": 696.72,
+            "end": 703.76,
+            "text": " we use star ARGs and star star quarks, and the names don't have to be ARGs and quarks, but that's"
+        },
+        {
+            "id": 118,
+            "number": "03",
+            "title": "Functions",
+            "start": 703.76,
+            "end": 708.88,
+            "text": " a convention that you'll see a lot. So it's always good to stick with conventions so that people can"
+        },
+        {
+            "id": 119,
+            "number": "03",
+            "title": "Functions",
+            "start": 708.88,
+            "end": 714.24,
+            "text": " understand your code. So let's call this function with some random values. So I'm going to say"
+        },
+        {
+            "id": 120,
+            "number": "03",
+            "title": "Functions",
+            "start": 714.8,
+            "end": 720.64,
+            "text": " student info. And first we want to pass in some positional arguments of the classes that they're"
+        },
+        {
+            "id": 121,
+            "number": "03",
+            "title": "Functions",
+            "start": 720.64,
+            "end": 726.72,
+            "text": " taking. So we'll say math and art. And now for our keyword arguments, we'll pass in some random"
+        },
+        {
+            "id": 122,
+            "number": "03",
+            "title": "Functions",
+            "start": 726.72,
+            "end": 735.04,
+            "text": " information about the students. So we'll say name is equal to John and age is equal to 22. So now if"
+        },
+        {
+            "id": 123,
+            "number": "03",
+            "title": "Functions",
+            "start": 735.04,
+            "end": 742.16,
+            "text": " we run this, then we can see that when we printed the ARGs, it's actually a tuple with all of our"
+        },
+        {
+            "id": 124,
+            "number": "03",
+            "title": "Functions",
+            "start": 742.16,
+            "end": 750.0799999999999,
+            "text": " positional arguments. And our quarks are a dictionary with all of our keyword values. So"
+        },
+        {
+            "id": 125,
+            "number": "03",
+            "title": "Functions",
+            "start": 750.0799999999999,
+            "end": 754.4,
+            "text": " once you have that tuple and that dictionary, then you'll be able to do whatever you want with that"
+        },
+        {
+            "id": 126,
+            "number": "03",
+            "title": "Functions",
+            "start": 754.4,
+            "end": 760.9599999999999,
+            "text": " information. Now, sometimes you might see a function call with arguments using the star or double star."
+        },
+        {
+            "id": 127,
+            "number": "03",
+            "title": "Functions",
+            "start": 760.9599999999999,
+            "end": 766.9599999999999,
+            "text": " Now, when it's used in that context, it will actually unpack a sequence or dictionary and"
+        },
+        {
+            "id": 128,
+            "number": "03",
+            "title": "Functions",
+            "start": 766.96,
+            "end": 772.96,
+            "text": " pass those values into the function individually. So to see what I mean, let's make a list and a"
+        },
+        {
+            "id": 129,
+            "number": "03",
+            "title": "Functions",
+            "start": 772.96,
+            "end": 777.76,
+            "text": " dictionary of everything that we just passed into our function. And just to clear up some room here,"
+        },
+        {
+            "id": 130,
+            "number": "03",
+            "title": "Functions",
+            "start": 777.76,
+            "end": 782.88,
+            "text": " I'm going to go ahead and delete the hello function that we started off with. So now I'm"
+        },
+        {
+            "id": 131,
+            "number": "03",
+            "title": "Functions",
+            "start": 782.88,
+            "end": 789.36,
+            "text": " going to create a list called courses, and I'm going to set this equal to math and art that we"
+        },
+        {
+            "id": 132,
+            "number": "03",
+            "title": "Functions",
+            "start": 789.36,
+            "end": 795.6800000000001,
+            "text": " passed in before. And instead of a tuple, I'm going to make that a list. So now for the student info,"
+        },
+        {
+            "id": 133,
+            "number": "03",
+            "title": "Functions",
+            "start": 795.68,
+            "end": 802.64,
+            "text": " I'm going to create a dictionary called info and set that equal to those values. So now let me get"
+        },
+        {
+            "id": 134,
+            "number": "03",
+            "title": "Functions",
+            "start": 802.64,
+            "end": 808.4799999999999,
+            "text": " rid of our positional and keyword arguments here. So let's say that we wanted to pass all of these"
+        },
+        {
+            "id": 135,
+            "number": "03",
+            "title": "Functions",
+            "start": 808.4799999999999,
+            "end": 815.12,
+            "text": " courses in as our positional arguments and the info dictionary as our keyword arguments. So if"
+        },
+        {
+            "id": 136,
+            "number": "03",
+            "title": "Functions",
+            "start": 815.12,
+            "end": 823.52,
+            "text": " we just pass these in as is, and I passed in courses and info. Now, if we run this, then we can see that"
+        },
+        {
+            "id": 137,
+            "number": "03",
+            "title": "Functions",
+            "start": 823.52,
+            "end": 830.16,
+            "text": " this might not be exactly what we thought instead of passing the values in individually, and instead"
+        },
+        {
+            "id": 138,
+            "number": "03",
+            "title": "Functions",
+            "start": 830.16,
+            "end": 836.0799999999999,
+            "text": " passed in the complete list and the complete dictionary as positional arguments. So if we"
+        },
+        {
+            "id": 139,
+            "number": "03",
+            "title": "Functions",
+            "start": 836.0799999999999,
+            "end": 841.4399999999999,
+            "text": " use the single star in front of our list and the double star in front of our dictionary,"
+        },
+        {
+            "id": 140,
+            "number": "03",
+            "title": "Functions",
+            "start": 841.4399999999999,
+            "end": 847.28,
+            "text": " then it would actually unpack these values and pass them in individually. So basically, it will be"
+        },
+        {
+            "id": 141,
+            "number": "03",
+            "title": "Functions",
+            "start": 847.28,
+            "end": 853.6,
+            "text": " the equivalent to our previous execution where we pass them in individually. So to see what I mean,"
+        },
+        {
+            "id": 142,
+            "number": "03",
+            "title": "Functions",
+            "start": 853.6,
+            "end": 861.28,
+            "text": " let's add a star in front of this courses to unpack those values and a star star in front of our"
+        },
+        {
+            "id": 143,
+            "number": "03",
+            "title": "Functions",
+            "start": 861.28,
+            "end": 867.4399999999999,
+            "text": " dictionary to unpack those keyword values. So now if we run this and we can see that we got what we"
+        },
+        {
+            "id": 144,
+            "number": "03",
+            "title": "Functions",
+            "start": 867.4399999999999,
+            "end": 873.52,
+            "text": " had before, we can see that when our function prints args, it's the values from our list that"
+        },
+        {
+            "id": 145,
+            "number": "03",
+            "title": "Functions",
+            "start": 873.52,
+            "end": 879.12,
+            "text": " we unpacked and our quarks is equal to the dictionary values that we unpacked. Now, I know"
+        },
+        {
+            "id": 146,
+            "number": "03",
+            "title": "Functions",
+            "start": 879.12,
+            "end": 884.56,
+            "text": " that's a little confusing, especially to, you know, get the idea that whenever you're passing these in"
+        },
+        {
+            "id": 147,
+            "number": "03",
+            "title": "Functions",
+            "start": 884.56,
+            "end": 890.16,
+            "text": " that it unpacks the values and within here it's for accepting an arbitrary number of positional"
+        },
+        {
+            "id": 148,
+            "number": "03",
+            "title": "Functions",
+            "start": 890.16,
+            "end": 896.8,
+            "text": " or keyword values, but it's a little more advanced of a topic and I know it's confusing, but hopefully"
+        },
+        {
+            "id": 149,
+            "number": "03",
+            "title": "Functions",
+            "start": 896.8,
+            "end": 900.72,
+            "text": " it makes some sense and you'll be able to better understand what's going on if you ever run into"
+        },
+        {
+            "id": 150,
+            "number": "03",
+            "title": "Functions",
+            "start": 900.72,
+            "end": 906.48,
+            "text": " something like that. Okay, so lastly, I wanted to run through an example that ties together everything"
+        },
+        {
+            "id": 151,
+            "number": "03",
+            "title": "Functions",
+            "start": 906.48,
+            "end": 911.9200000000001,
+            "text": " we've learned so far in this series of videos. So I have some code here in my snippets file that I'm"
+        },
+        {
+            "id": 152,
+            "number": "03",
+            "title": "Functions",
+            "start": 911.9200000000001,
+            "end": 918.88,
+            "text": " going to grab real quick and paste into the file that we've been working with. So now let me lower"
+        },
+        {
+            "id": 153,
+            "number": "03",
+            "title": "Functions",
+            "start": 918.88,
+            "end": 923.0400000000001,
+            "text": " this output a little bit so that we can see everything here. Now, these are actually a couple"
+        },
+        {
+            "id": 154,
+            "number": "03",
+            "title": "Functions",
+            "start": 923.0400000000001,
+            "end": 927.6,
+            "text": " of functions that I grabbed from the Python standard library. I modified them very slightly,"
+        },
+        {
+            "id": 155,
+            "number": "03",
+            "title": "Functions",
+            "start": 927.6,
+            "end": 931.44,
+            "text": " but it's basically the same and I wanted to show that even though we've only gone over the"
+        },
+        {
+            "id": 156,
+            "number": "03",
+            "title": "Functions",
+            "start": 931.44,
+            "end": 936.72,
+            "text": " fundamentals, we're already able to look at some code from within the standard library itself and"
+        },
+        {
+            "id": 157,
+            "number": "03",
+            "title": "Functions",
+            "start": 936.72,
+            "end": 943.12,
+            "text": " understand what's going on. So at the top here, we have a list called month days and this has the"
+        },
+        {
+            "id": 158,
+            "number": "03",
+            "title": "Functions",
+            "start": 943.12,
+            "end": 949.12,
+            "text": " number of days in each month. Now, the first index here is just a placeholder that's not going to get"
+        },
+        {
+            "id": 159,
+            "number": "03",
+            "title": "Functions",
+            "start": 949.12,
+            "end": 955.36,
+            "text": " used. We're only going to be accessing indexes 1 through 12 since those are the months. And then"
+        },
+        {
+            "id": 160,
+            "number": "03",
+            "title": "Functions",
+            "start": 955.36,
+            "end": 961.36,
+            "text": " we have a function here called is leap, which determines if a year is a leap year. It takes a"
+        },
+        {
+            "id": 161,
+            "number": "03",
+            "title": "Functions",
+            "start": 961.36,
+            "end": 966.5600000000001,
+            "text": " single argument that is the year that it's checking. And we can see that there's this string"
+        },
+        {
+            "id": 162,
+            "number": "03",
+            "title": "Functions",
+            "start": 967.44,
+            "end": 973.28,
+            "text": " after the function definition with three quotes. And this is called a doc string and doc strings"
+        },
+        {
+            "id": 163,
+            "number": "03",
+            "title": "Functions",
+            "start": 973.28,
+            "end": 978.8000000000001,
+            "text": " help document what a function or a class is supposed to do. So it's a good practice anytime"
+        },
+        {
+            "id": 164,
+            "number": "03",
+            "title": "Functions",
+            "start": 978.8000000000001,
+            "end": 983.76,
+            "text": " you write a function to write a doc string that goes along with it, explaining what that function"
+        },
+        {
+            "id": 165,
+            "number": "03",
+            "title": "Functions",
+            "start": 983.76,
+            "end": 988.88,
+            "text": " is supposed to do. Now, this part here can seem a little intimidating, but it's not important that"
+        },
+        {
+            "id": 166,
+            "number": "03",
+            "title": "Functions",
+            "start": 988.88,
+            "end": 992.96,
+            "text": " you understand how a leap year is calculated. There's not a lot of people who know that off"
+        },
+        {
+            "id": 167,
+            "number": "03",
+            "title": "Functions",
+            "start": 992.96,
+            "end": 998.24,
+            "text": " the top of their head. But for various reasons, this is how a leap year is calculated. And it's"
+        },
+        {
+            "id": 168,
+            "number": "03",
+            "title": "Functions",
+            "start": 998.24,
+            "end": 1003.4399999999999,
+            "text": " not important, but you could probably figure out what this conditional is doing. So we're saying"
+        },
+        {
+            "id": 169,
+            "number": "03",
+            "title": "Functions",
+            "start": 1003.4399999999999,
+            "end": 1012.88,
+            "text": " that if the year is divisible by four, and it's not divisible by 100, or it's divisible by 400."
+        },
+        {
+            "id": 170,
+            "number": "03",
+            "title": "Functions",
+            "start": 1012.88,
+            "end": 1018.16,
+            "text": " So like I was saying, there's a lot of different reasons why leap years are determined this way."
+        },
+        {
+            "id": 171,
+            "number": "03",
+            "title": "Functions",
+            "start": 1018.16,
+            "end": 1022.4,
+            "text": " And if you don't know that, that's completely fine. But this function here is going to return"
+        },
+        {
+            "id": 172,
+            "number": "03",
+            "title": "Functions",
+            "start": 1022.4,
+            "end": 1028.16,
+            "text": " true if a year is a leap year and false if it's a non-leap year. And down here, we have a days"
+        },
+        {
+            "id": 173,
+            "number": "03",
+            "title": "Functions",
+            "start": 1028.16,
+            "end": 1034.96,
+            "text": " and month function that takes a year and a month as arguments, and it'll return the number of days"
+        },
+        {
+            "id": 174,
+            "number": "03",
+            "title": "Functions",
+            "start": 1034.96,
+            "end": 1041.04,
+            "text": " in that month. So if we look at how this function works, we can see that it first checks if a month"
+        },
+        {
+            "id": 175,
+            "number": "03",
+            "title": "Functions",
+            "start": 1041.04,
+            "end": 1048.1599999999999,
+            "text": " is between one and 12. And if it's not, then it returns that it's an invalid month. And then it"
+        },
+        {
+            "id": 176,
+            "number": "03",
+            "title": "Functions",
+            "start": 1048.1599999999999,
+            "end": 1053.2,
+            "text": " checks if the month that we're working with is the second month, which would mean that it's February,"
+        },
+        {
+            "id": 177,
+            "number": "03",
+            "title": "Functions",
+            "start": 1053.2,
+            "end": 1060.24,
+            "text": " and is a leap year using our function up here at the top, then it returns 29 if both of those are"
+        },
+        {
+            "id": 178,
+            "number": "03",
+            "title": "Functions",
+            "start": 1060.24,
+            "end": 1066.48,
+            "text": " true. And lastly, if it makes it to the end without having returned anything yet, then it will index"
+        },
+        {
+            "id": 179,
+            "number": "03",
+            "title": "Functions",
+            "start": 1066.56,
+            "end": 1073.6,
+            "text": " into our month days and list up here at the top and return the value of our month. So let's just"
+        },
+        {
+            "id": 180,
+            "number": "03",
+            "title": "Functions",
+            "start": 1073.6,
+            "end": 1079.1200000000001,
+            "text": " run through this one time and see how these functions work. So outside of both of the"
+        },
+        {
+            "id": 181,
+            "number": "03",
+            "title": "Functions",
+            "start": 1079.1200000000001,
+            "end": 1086.16,
+            "text": " functions, we're going to go ahead and first use this is leap year function. So we'll say is leap"
+        },
+        {
+            "id": 182,
+            "number": "03",
+            "title": "Functions",
+            "start": 1086.16,
+            "end": 1094.88,
+            "text": " 2017. So if we run this, then it returns false. So we ran this function is leap passed in 2017 as"
+        },
+        {
+            "id": 183,
+            "number": "03",
+            "title": "Functions",
+            "start": 1094.88,
+            "end": 1100.0,
+            "text": " our value. And it went through this complicated conditional here and determined that that was"
+        },
+        {
+            "id": 184,
+            "number": "03",
+            "title": "Functions",
+            "start": 1100.0,
+            "end": 1107.1200000000001,
+            "text": " false. But if we type in 2020 here and run that, then we can see that it returns true that 2020"
+        },
+        {
+            "id": 185,
+            "number": "03",
+            "title": "Functions",
+            "start": 1107.1200000000001,
+            "end": 1113.7600000000002,
+            "text": " is a leap year. But now let's try our days and month function, which is going to be a little"
+        },
+        {
+            "id": 186,
+            "number": "03",
+            "title": "Functions",
+            "start": 1113.7600000000002,
+            "end": 1120.72,
+            "text": " bit longer of a walkthrough. So we'll say days and month, and we'll pass in a year. So it takes a year"
+        },
+        {
+            "id": 187,
+            "number": "03",
+            "title": "Functions",
+            "start": 1120.72,
+            "end": 1127.44,
+            "text": " first, we'll pass in a year of 2017. And we'll pass in a month of two, which is February. Now,"
+        },
+        {
+            "id": 188,
+            "number": "03",
+            "title": "Functions",
+            "start": 1127.44,
+            "end": 1135.04,
+            "text": " since 2017 is not a leap year, then this second month, which is February should only have 28 days."
+        },
+        {
+            "id": 189,
+            "number": "03",
+            "title": "Functions",
+            "start": 1135.04,
+            "end": 1140.24,
+            "text": " So if we run this, then we can see that we got 28. So let's walk through exactly what happened,"
+        },
+        {
+            "id": 190,
+            "number": "03",
+            "title": "Functions",
+            "start": 1140.24,
+            "end": 1145.52,
+            "text": " just so we're sure that we understand. So we executed our days and month function with our"
+        },
+        {
+            "id": 191,
+            "number": "03",
+            "title": "Functions",
+            "start": 1145.52,
+            "end": 1152.8799999999999,
+            "text": " arguments of 2017 for the year and two for the month. So it comes in to our days and month"
+        },
+        {
+            "id": 192,
+            "number": "03",
+            "title": "Functions",
+            "start": 1152.8799999999999,
+            "end": 1160.24,
+            "text": " function. And it sets this year variable equal to 2017. And this month variable equal to two. So"
+        },
+        {
+            "id": 193,
+            "number": "03",
+            "title": "Functions",
+            "start": 1160.24,
+            "end": 1166.24,
+            "text": " let's comment those here, just to keep track of them through our walkthrough. So I'll put a comment"
+        },
+        {
+            "id": 194,
+            "number": "03",
+            "title": "Functions",
+            "start": 1166.32,
+            "end": 1176.16,
+            "text": " for year as 2017, and a comment for month as two. So first, it checks if our month is not between"
+        },
+        {
+            "id": 195,
+            "number": "03",
+            "title": "Functions",
+            "start": 1176.16,
+            "end": 1182.56,
+            "text": " one and 12. Our month is two. So it is in that range. So it doesn't meet this conditional. And"
+        },
+        {
+            "id": 196,
+            "number": "03",
+            "title": "Functions",
+            "start": 1182.56,
+            "end": 1187.76,
+            "text": " since it doesn't meet that conditional, then we just continue on. So our next conditional"
+        },
+        {
+            "id": 197,
+            "number": "03",
+            "title": "Functions",
+            "start": 1187.76,
+            "end": 1195.44,
+            "text": " asks if the month is equal to two and is a leap year. So our month is equal to two. But this is"
+        },
+        {
+            "id": 198,
+            "number": "03",
+            "title": "Functions",
+            "start": 1195.44,
+            "end": 1203.44,
+            "text": " leap function runs through its code with the year 2017 and returns false. So since is leap is false,"
+        },
+        {
+            "id": 199,
+            "number": "03",
+            "title": "Functions",
+            "start": 1203.44,
+            "end": 1209.8400000000001,
+            "text": " and we're using an and operator, then the whole conditional evaluates to false. So we move on."
+        },
+        {
+            "id": 200,
+            "number": "03",
+            "title": "Functions",
+            "start": 1209.8400000000001,
+            "end": 1217.68,
+            "text": " And lastly, it accesses the month days list at this month index. And remember that our month"
+        },
+        {
+            "id": 201,
+            "number": "03",
+            "title": "Functions",
+            "start": 1217.68,
+            "end": 1224.4,
+            "text": " is equal to two. So it's accessing the second index. And if we look up here to our month days"
+        },
+        {
+            "id": 202,
+            "number": "03",
+            "title": "Functions",
+            "start": 1224.4,
+            "end": 1232.64,
+            "text": " list, and go to our second index, so 012, then we can see that that's equal to 28. So it should"
+        },
+        {
+            "id": 203,
+            "number": "03",
+            "title": "Functions",
+            "start": 1232.64,
+            "end": 1239.8400000000001,
+            "text": " be returning 28 here. And finally, when we printed out that result, 28 is what we got as our result."
+        },
+        {
+            "id": 204,
+            "number": "03",
+            "title": "Functions",
+            "start": 1239.8400000000001,
+            "end": 1244.5600000000002,
+            "text": " Now I know that was kind of a long walkthrough, but I thought it might be useful to see how these"
+        },
+        {
+            "id": 205,
+            "number": "03",
+            "title": "Functions",
+            "start": 1244.5600000000002,
+            "end": 1249.6000000000001,
+            "text": " things actually work together. And how do you go about determining what a function should return"
+        },
+        {
+            "id": 206,
+            "number": "03",
+            "title": "Functions",
+            "start": 1249.6000000000001,
+            "end": 1254.0800000000002,
+            "text": " based on the arguments that you pass in? Okay, so I think that is going to do it for this video."
+        },
+        {
+            "id": 207,
+            "number": "03",
+            "title": "Functions",
+            "start": 1254.32,
+            "end": 1259.28,
+            "text": " I hope that now you have a clear understanding of how functions work, how we return values, and the"
+        },
+        {
+            "id": 208,
+            "number": "03",
+            "title": "Functions",
+            "start": 1259.28,
+            "end": 1264.6399999999999,
+            "text": " different ways that we can pass arguments. In the next video, we'll be learning how to import modules"
+        },
+        {
+            "id": 209,
+            "number": "03",
+            "title": "Functions",
+            "start": 1264.6399999999999,
+            "end": 1269.6799999999998,
+            "text": " and also learn about some of the useful modules that come in the standard library. But if anyone"
+        },
+        {
+            "id": 210,
+            "number": "03",
+            "title": "Functions",
+            "start": 1269.6799999999998,
+            "end": 1274.08,
+            "text": " has any questions about what we covered in this video, then feel free to ask in the comment section"
+        },
+        {
+            "id": 211,
+            "number": "03",
+            "title": "Functions",
+            "start": 1274.08,
+            "end": 1278.0,
+            "text": " below, and I'll do my best to answer those. And if you enjoy these tutorials and would like to"
+        },
+        {
+            "id": 212,
+            "number": "03",
+            "title": "Functions",
+            "start": 1278.0,
+            "end": 1281.9199999999998,
+            "text": " support them, then there are several ways you can do that. The easiest way is to simply like the"
+        },
+        {
+            "id": 213,
+            "number": "03",
+            "title": "Functions",
+            "start": 1281.92,
+            "end": 1285.8400000000001,
+            "text": " video and give it a thumbs up. And also, it's a huge help to share these videos with anyone who"
+        },
+        {
+            "id": 214,
+            "number": "03",
+            "title": "Functions",
+            "start": 1285.8400000000001,
+            "end": 1289.52,
+            "text": " you think would find them useful. And if you have the means, you can contribute through Patreon,"
+        },
+        {
+            "id": 215,
+            "number": "03",
+            "title": "Functions",
+            "start": 1289.52,
+            "end": 1293.52,
+            "text": " and there's a link to that page in the description section below. Be sure to subscribe for future"
+        },
+        {
+            "id": 216,
+            "number": "03",
+            "title": "Functions",
+            "start": 1293.52,
+            "end": 1299.28,
+            "text": " videos, and thank you all for watching."
+        }
+    ],
+    "text": " Hey there, how's it going everybody? In this video, we'll be learning about functions. Now functions are basically some instructions packaged together that perform a specific task. So let's create our first function and see why these are so beneficial. Now to create a function, we'll use the def keyword, which I believe stands for definition. And let's just make a simple function here to get started. I'll call this hello funk. Now we have parentheses there because that is where our parameters will go when we add those in, but we don't have any parameters just yet. So that will be empty for now. Now it is possible to write a function and not have any code in it, but we can't leave it completely blank. Uh, but if we want to fill this function in later, then we can use this pass keyword. And basically that pass keyword is saying that we don't want to do anything with this for now, but it won't throw any errors for leaving it blank. So if we want to run our function, then we can just say, hello, underscore funk, and put in these parentheses. And we need to add those parentheses after the function in order to execute it. If we don't have those parentheses there, then it'll be equal to the function itself. Um, so let's actually see what that looks like. So I'm going to print out that hello function without the parentheses in place, uh, which means that we're not executing the function. So let me run that. And we can see when we printed that out, that it prints out that this is a function in a certain location in memory, but it didn't execute the function. So to execute it, then we add in these parentheses. So now if I run this, then now it just gives us none because we're not doing anything with this function yet. And it doesn't have a return value. So let's go ahead and put some code into our function. So first we'll just put in a print statement and we'll just print out some text that says, hello, function with an exclamation point. And now that we're actually running that print statement from within the function, we don't need to print out that executed function. We can just execute that function and it should run that print statement. So we'll run that. So we can see that we executed our function here. It came within our function and ran our print statement. Now, one benefit of functions is that they allow us to reuse code without repeating ourselves. So let's say for example, that we had to print out some text in several locations throughout our program. So it might look something like this. So let me copy this and I'll comment out our function execution for now. And I'm just going to paste this in about four times. So now if we run this, then as we expect, it prints out our four messages. Now imagine our boss came to us and told us that the text was a little bit off and that we didn't want to have an exclamation point at the end of the string. Well, the way that we have it now, we'd have to come in here and change all of those manually. So I'd come in and change all of these messages to have a period instead. Now that was only four changes to make there, but in some instances that can be in hundreds of locations in multiple different files. So that's the first benefit of functions. It allows us to put code with a specific purpose into a single location. So instead of printing those four statements, what we can instead do is run our function four times. So I will remove that and uncomment our function, and we're going to execute this four different times. So now if we run that, then we can see that it ran our function four times and executed our print statement four different times. But now if our boss came to us and asked us to remove that exclamation point, it doesn't matter if this is spread out over a hundred different lines or a hundred different locations. We can just update it in this one spot. So I can change this to a period. And now if we run this, then we can see that those changes are seen everywhere that the function is called. Now this is called keeping your code dry, which stands for don't repeat yourself. It's a common mistake for people new to programming to repeat the same things throughout their code. When really they could either put their code into certain variables or functions so that it's in a single location. So we saw earlier that since we aren't returning anything from our function, it was actually equal to none. So what does it mean for our function to return something? Now this is where functions become really powerful because it allows us to operate on some data and then pass the result to whatever called our function. So instead of printing the string, hello function within here, let's instead return this. Okay. So what does this mean exactly? This means that when we execute our function, it's actually going to be equal to our return value. So these executed functions here are actually equal to the string hello function. So right now, if we run this, then it doesn't give us any results because it's just a string that we're not doing anything with. But if instead we print this, so let me print that executed function. And if we run that, then we can see that it prints out our string. So basically think of a function as a machine that takes input and produces a result. When you execute a function, you can think of it almost like a black box. You don't need to know exactly how it's doing what it's doing. You're mainly concerned about the input and the return value. So in this simple example here, we don't have any input and we can see that the return value is a string. Now don't get me wrong. It's useful to know what a function is doing, but when you're first getting started, don't get caught up on understanding every detail of what every function does. Just focus on the input and what's returned. So for example, when we call the LEN function on a string. So if I print out LEN of this string test, if I run this, then as we saw in a previous video, this just returns an integer that is the number of characters in our string. So we have no idea what the code that produces that result looks like, but we do know that we passed in a string and that it returned this integer. And we'll see why here in a bit, why looking at functions in this way will help you become better when working with Python, because we can treat the return value just like the data type that it is. And understanding this will allow you to chain together some functionality. So we know our hello function returns a string, so we can treat that executed function just like a string. So if we remember back to our string methods, remember that we can uppercase a string with dot upper. So really we can take this executed function and just chain dot upper onto the end of it. So now if we run this, now we can see that our executed function returned the string hello function, and then we were able to use the string method upper on that returned value to uppercase the string. Okay, so now let's look at how we can pass arguments to our function. And real quick, I'm going to remove that dot upper method. So to be able to pass arguments to our function, we'll need to create some parameters here within our parentheses. So let's say that we wanted to customize the greeting that our function returns. So let's create a parameter called greeting. And now within our function, we'll return a string where we use that greeting instead of our hello text that we had before. So now I'll just pass this in with a dot format. So now before we run this, we have to pass in that greeting argument when we execute our function. If we don't, then we'll get an error. So actually, let's go ahead and run this and see this error. So we can see that when we ran that, it says that hello func is missing one required positional argument greeting. So let's pass in that greeting argument to our hello function. And to do that, we can just pass it in directly here when we call our function. So I'm just going to pass in a high as our string. So now if we run this, then we can see that when we passed in that string high into our function, that it set that greeting variable equal to the string high, and then returned the string high function. Now this greeting variable doesn't affect any variables outside of the function. Its scope is only local to the function, which is nice because we don't have to worry about it affecting anything we don't want it to affect. So if you want to learn more about Python scope, then I do have a detailed video going in depth as to how that works exactly. And I'll leave a link to that video and the description section below. Okay, so right now this greeting parameter is a required argument, and that is because it doesn't have a default value. Now, if we had a default value, then it would just fall back to the default value whenever we didn't pass that argument in. So let's see an example of this. So let's say that we also want to be able to pass a name to our hello function, and it will return a greeting and the name. So we can add that to our parameters by putting in a comma here and saying that we also want to accept this name parameter. But let's say that if no name is passed in, then we want to have a default value of you. So we can just say name is equal to you. And now let's add that to our return string. So I'll put in a comma space and then another placeholder, and we'll pass in that name. So what this is going to do is it'll return a greeting and a name separated by a comma and a space. So if we run this, then we can see that even though we didn't pass in a value for the name argument, when we executed this function, it didn't throw an error and instead use the default value that we specified as you. But if we want to pass in a value, then it will use that value instead. So when we execute this function, if I was to say name is equal to, and we'll say Corey and run that, but now we can see that printed out the greeting with the name that we passed in. Now your required positional arguments have to come before your keyword arguments. Now, if you try to create a function with those out of order, then it's going to give you an error. Now, this is a little more advanced topic that trips a lot of people up, but at some point, you'll probably run across a function in Python that looks something like this. So I'll say deaf student info, and you might see something where you see this star ARGs and star star quarks. And so let me just go ahead. And within this new function here, I will print out ARGs and I'll also print out quarks. So let's not really worry about this function name for now. It's the arguments that I want to focus on. So seeing this star ARGs and star star quarks can seem confusing at first, but basically all it's doing is allowing us to accept an arbitrary number of positional or keyword arguments. So for example, let's say that this student info function takes positional arguments that represent the classes that the student is taking. Plus the keyword arguments passed in will be random information about the student. So you can see in both of those examples, we don't know how many of these positional or keyword arguments there will be. And that's why we use star ARGs and star star quarks, and the names don't have to be ARGs and quarks, but that's a convention that you'll see a lot. So it's always good to stick with conventions so that people can understand your code. So let's call this function with some random values. So I'm going to say student info. And first we want to pass in some positional arguments of the classes that they're taking. So we'll say math and art. And now for our keyword arguments, we'll pass in some random information about the students. So we'll say name is equal to John and age is equal to 22. So now if we run this, then we can see that when we printed the ARGs, it's actually a tuple with all of our positional arguments. And our quarks are a dictionary with all of our keyword values. So once you have that tuple and that dictionary, then you'll be able to do whatever you want with that information. Now, sometimes you might see a function call with arguments using the star or double star. Now, when it's used in that context, it will actually unpack a sequence or dictionary and pass those values into the function individually. So to see what I mean, let's make a list and a dictionary of everything that we just passed into our function. And just to clear up some room here, I'm going to go ahead and delete the hello function that we started off with. So now I'm going to create a list called courses, and I'm going to set this equal to math and art that we passed in before. And instead of a tuple, I'm going to make that a list. So now for the student info, I'm going to create a dictionary called info and set that equal to those values. So now let me get rid of our positional and keyword arguments here. So let's say that we wanted to pass all of these courses in as our positional arguments and the info dictionary as our keyword arguments. So if we just pass these in as is, and I passed in courses and info. Now, if we run this, then we can see that this might not be exactly what we thought instead of passing the values in individually, and instead passed in the complete list and the complete dictionary as positional arguments. So if we use the single star in front of our list and the double star in front of our dictionary, then it would actually unpack these values and pass them in individually. So basically, it will be the equivalent to our previous execution where we pass them in individually. So to see what I mean, let's add a star in front of this courses to unpack those values and a star star in front of our dictionary to unpack those keyword values. So now if we run this and we can see that we got what we had before, we can see that when our function prints args, it's the values from our list that we unpacked and our quarks is equal to the dictionary values that we unpacked. Now, I know that's a little confusing, especially to, you know, get the idea that whenever you're passing these in that it unpacks the values and within here it's for accepting an arbitrary number of positional or keyword values, but it's a little more advanced of a topic and I know it's confusing, but hopefully it makes some sense and you'll be able to better understand what's going on if you ever run into something like that. Okay, so lastly, I wanted to run through an example that ties together everything we've learned so far in this series of videos. So I have some code here in my snippets file that I'm going to grab real quick and paste into the file that we've been working with. So now let me lower this output a little bit so that we can see everything here. Now, these are actually a couple of functions that I grabbed from the Python standard library. I modified them very slightly, but it's basically the same and I wanted to show that even though we've only gone over the fundamentals, we're already able to look at some code from within the standard library itself and understand what's going on. So at the top here, we have a list called month days and this has the number of days in each month. Now, the first index here is just a placeholder that's not going to get used. We're only going to be accessing indexes 1 through 12 since those are the months. And then we have a function here called is leap, which determines if a year is a leap year. It takes a single argument that is the year that it's checking. And we can see that there's this string after the function definition with three quotes. And this is called a doc string and doc strings help document what a function or a class is supposed to do. So it's a good practice anytime you write a function to write a doc string that goes along with it, explaining what that function is supposed to do. Now, this part here can seem a little intimidating, but it's not important that you understand how a leap year is calculated. There's not a lot of people who know that off the top of their head. But for various reasons, this is how a leap year is calculated. And it's not important, but you could probably figure out what this conditional is doing. So we're saying that if the year is divisible by four, and it's not divisible by 100, or it's divisible by 400. So like I was saying, there's a lot of different reasons why leap years are determined this way. And if you don't know that, that's completely fine. But this function here is going to return true if a year is a leap year and false if it's a non-leap year. And down here, we have a days and month function that takes a year and a month as arguments, and it'll return the number of days in that month. So if we look at how this function works, we can see that it first checks if a month is between one and 12. And if it's not, then it returns that it's an invalid month. And then it checks if the month that we're working with is the second month, which would mean that it's February, and is a leap year using our function up here at the top, then it returns 29 if both of those are true. And lastly, if it makes it to the end without having returned anything yet, then it will index into our month days and list up here at the top and return the value of our month. So let's just run through this one time and see how these functions work. So outside of both of the functions, we're going to go ahead and first use this is leap year function. So we'll say is leap 2017. So if we run this, then it returns false. So we ran this function is leap passed in 2017 as our value. And it went through this complicated conditional here and determined that that was false. But if we type in 2020 here and run that, then we can see that it returns true that 2020 is a leap year. But now let's try our days and month function, which is going to be a little bit longer of a walkthrough. So we'll say days and month, and we'll pass in a year. So it takes a year first, we'll pass in a year of 2017. And we'll pass in a month of two, which is February. Now, since 2017 is not a leap year, then this second month, which is February should only have 28 days. So if we run this, then we can see that we got 28. So let's walk through exactly what happened, just so we're sure that we understand. So we executed our days and month function with our arguments of 2017 for the year and two for the month. So it comes in to our days and month function. And it sets this year variable equal to 2017. And this month variable equal to two. So let's comment those here, just to keep track of them through our walkthrough. So I'll put a comment for year as 2017, and a comment for month as two. So first, it checks if our month is not between one and 12. Our month is two. So it is in that range. So it doesn't meet this conditional. And since it doesn't meet that conditional, then we just continue on. So our next conditional asks if the month is equal to two and is a leap year. So our month is equal to two. But this is leap function runs through its code with the year 2017 and returns false. So since is leap is false, and we're using an and operator, then the whole conditional evaluates to false. So we move on. And lastly, it accesses the month days list at this month index. And remember that our month is equal to two. So it's accessing the second index. And if we look up here to our month days list, and go to our second index, so 012, then we can see that that's equal to 28. So it should be returning 28 here. And finally, when we printed out that result, 28 is what we got as our result. Now I know that was kind of a long walkthrough, but I thought it might be useful to see how these things actually work together. And how do you go about determining what a function should return based on the arguments that you pass in? Okay, so I think that is going to do it for this video. I hope that now you have a clear understanding of how functions work, how we return values, and the different ways that we can pass arguments. In the next video, we'll be learning how to import modules and also learn about some of the useful modules that come in the standard library. But if anyone has any questions about what we covered in this video, then feel free to ask in the comment section below, and I'll do my best to answer those. And if you enjoy these tutorials and would like to support them, then there are several ways you can do that. The easiest way is to simply like the video and give it a thumbs up. And also, it's a huge help to share these videos with anyone who you think would find them useful. And if you have the means, you can contribute through Patreon, and there's a link to that page in the description section below. Be sure to subscribe for future videos, and thank you all for watching."
+}

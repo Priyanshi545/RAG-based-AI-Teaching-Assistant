@@ -1,0 +1,949 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 0.0,
+            "end": 3.68,
+            "text": " Hey there, how's it going everybody? In this video we'll be learning how to work with numeric"
+        },
+        {
+            "id": 1,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 3.68,
+            "end": 8.56,
+            "text": " data in Python. And numbers are most commonly represented with integers and floats. And the"
+        },
+        {
+            "id": 2,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 8.56,
+            "end": 13.44,
+            "text": " difference between an integer and a float is that an integer is a whole number and a float is a"
+        },
+        {
+            "id": 3,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 13.44,
+            "end": 18.96,
+            "text": " decimal. So to see an example of this, let's create a variable called num and let's just set this"
+        },
+        {
+            "id": 4,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 18.96,
+            "end": 26.16,
+            "text": " equal to three. Now Python has a built in function called type, where we can see the data type of an"
+        },
+        {
+            "id": 5,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 26.16,
+            "end": 33.44,
+            "text": " object. So if we print out the type of num and run this, then we can see that it returns that"
+        },
+        {
+            "id": 6,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 33.44,
+            "end": 42.32,
+            "text": " that is of the class integer. Now if we were to set this number instead to 3.14, and now rerun this,"
+        },
+        {
+            "id": 7,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 42.32,
+            "end": 48.16,
+            "text": " then we can see that now the type of number is a float. So that's the main difference between an"
+        },
+        {
+            "id": 8,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 48.16,
+            "end": 53.2,
+            "text": " integer and a float. Now when working with numeric data, it's common that you'll need to use some"
+        },
+        {
+            "id": 9,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 53.2,
+            "end": 58.88,
+            "text": " basic arithmetic. So let me grab some comments from my snippets here, just so that we have a"
+        },
+        {
+            "id": 10,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 58.88,
+            "end": 63.760000000000005,
+            "text": " reference for everything that we can do. So I'll copy these arithmetic operators and paste these"
+        },
+        {
+            "id": 11,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 63.760000000000005,
+            "end": 68.72,
+            "text": " in. And now let's go ahead and just run through each of these. So the first four we've likely"
+        },
+        {
+            "id": 12,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 68.72,
+            "end": 76.16,
+            "text": " already seen a lot and are familiar with. So for example, addition, if we print it out 3 plus 2,"
+        },
+        {
+            "id": 13,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 76.16,
+            "end": 82.96000000000001,
+            "text": " then we can expect that that's equal to 5. If we print out 3 minus 2, that should be 1. 3 times"
+        },
+        {
+            "id": 14,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 82.96,
+            "end": 89.52,
+            "text": " 2 should be equal to 6. And 3 divided by 2 should be equal to 1.5. Now for division to behave this"
+        },
+        {
+            "id": 15,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 89.52,
+            "end": 95.67999999999999,
+            "text": " way, this is actually new in Python 3. If you're running Python 2, then this will actually equal"
+        },
+        {
+            "id": 16,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 95.67999999999999,
+            "end": 102.56,
+            "text": " 1 because it drops the decimal. But in Python 3, that gives us the right answer of 1.5. Now if we"
+        },
+        {
+            "id": 17,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 102.56,
+            "end": 107.75999999999999,
+            "text": " don't want to drop that decimal, then we do have a floor division. And floor division can be performed"
+        },
+        {
+            "id": 18,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 107.76,
+            "end": 114.48,
+            "text": " by adding two division signs. So if I run this, and now we can see it drops that decimal and it's"
+        },
+        {
+            "id": 19,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 114.48,
+            "end": 119.92,
+            "text": " equal to 1. So if you ever see these two division signs, then that is this floor division. Now if"
+        },
+        {
+            "id": 20,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 119.92,
+            "end": 124.48,
+            "text": " you wanted to work with exponents and powers, then we can use these two multiplication signs."
+        },
+        {
+            "id": 21,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 125.04,
+            "end": 131.12,
+            "text": " So if we wanted to print 3 to the second power, then we could just say 3 with these two"
+        },
+        {
+            "id": 22,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 131.12,
+            "end": 136.8,
+            "text": " multiplication signs. And if I print that, then we can see that that equals 9 because 3 squared is"
+        },
+        {
+            "id": 23,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 136.8,
+            "end": 143.28,
+            "text": " equal to 9. Now this last operator here is called a modulo operator, and it gives us the remainder"
+        },
+        {
+            "id": 24,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 143.28,
+            "end": 152.8,
+            "text": " after a division. So 3 mod 2 will have a remainder of 1 because 2 goes into 3 once with 1 left over."
+        },
+        {
+            "id": 25,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 152.8,
+            "end": 160.88000000000002,
+            "text": " So if we say 3 mod 2 and run that, then we can see that that is equal to 1. Now a common use case for"
+        },
+        {
+            "id": 26,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 160.88,
+            "end": 167.28,
+            "text": " this is to tell if a number is even or odd. Now the reason for this is because every time you divide"
+        },
+        {
+            "id": 27,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 167.28,
+            "end": 174.24,
+            "text": " a number by 2, there are only two possible remainders. It's either going to be 0 or 1. So for example,"
+        },
+        {
+            "id": 28,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 174.24,
+            "end": 180.0,
+            "text": " if we look at a few more examples here, so let me just print out a few more modulo operators,"
+        },
+        {
+            "id": 29,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 180.0,
+            "end": 188.24,
+            "text": " and I'll do 2 mod 2, 3 mod 2, 4 mod 2, and 5 mod 2. So if we run this, then we can see that 2 goes"
+        },
+        {
+            "id": 30,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 188.24,
+            "end": 195.84,
+            "text": " into 2 once with no remainders. That's why we get a 0. 2 goes into 3 once with 1 as a remainder."
+        },
+        {
+            "id": 31,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 195.84,
+            "end": 204.56,
+            "text": " So 2 goes into 4 twice with no remainder, and 2 goes into 5 twice with 1 as a remainder. So we can"
+        },
+        {
+            "id": 32,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 204.56,
+            "end": 210.08,
+            "text": " see from this pattern that if you do a mod 2 on any number and there is no remainder, then that"
+        },
+        {
+            "id": 33,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 210.08,
+            "end": 216.48000000000002,
+            "text": " number is even. If you do a mod 2 on any number and the remainder is 1, then that number is odd."
+        },
+        {
+            "id": 34,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 216.48,
+            "end": 220.56,
+            "text": " And that's a pretty common check that you'll use a lot throughout Python programming."
+        },
+        {
+            "id": 35,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 220.56,
+            "end": 225.76,
+            "text": " Okay, so now let's look at the order of operations. Just like we would expect, we can also"
+        },
+        {
+            "id": 36,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 225.76,
+            "end": 232.23999999999998,
+            "text": " use parentheses to change the order of operations just like with normal arithmetic. So for example,"
+        },
+        {
+            "id": 37,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 232.23999999999998,
+            "end": 240.88,
+            "text": " if we were to say, let's see, 3 times 2 plus 1, and with the normal order of operations,"
+        },
+        {
+            "id": 38,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 240.88,
+            "end": 247.12,
+            "text": " we would multiply 3 and 2, which would give us 6. And then we would add 1, which would give us"
+        },
+        {
+            "id": 39,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 247.12,
+            "end": 254.0,
+            "text": " 7. So if we run that, then we can see that we got 7 as our answer. But if I put a parentheses here"
+        },
+        {
+            "id": 40,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 254.0,
+            "end": 259.68,
+            "text": " around this 2 plus 1, then now with normal arithmetic, the way that this would work"
+        },
+        {
+            "id": 41,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 259.68,
+            "end": 264.32,
+            "text": " is that it should first add up these numbers in the parentheses, which should give us 3."
+        },
+        {
+            "id": 42,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 264.32,
+            "end": 270.56,
+            "text": " And then 3 times 3 should give us 9. So now if we run this, then we can see that we got 9."
+        },
+        {
+            "id": 43,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 270.8,
+            "end": 274.72,
+            "text": " The order of operations does work correctly within Python like we would expect."
+        },
+        {
+            "id": 44,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 274.72,
+            "end": 278.64,
+            "text": " Okay, so now let's look at another common operation that you'll see a lot,"
+        },
+        {
+            "id": 45,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 278.64,
+            "end": 284.8,
+            "text": " and that is incrementing a variable. So if I make a variable here called num, and I set this equal"
+        },
+        {
+            "id": 46,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 284.8,
+            "end": 290.8,
+            "text": " to 1, then what are some ways that we can increment that value by 1? Well, one way that we"
+        },
+        {
+            "id": 47,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 290.8,
+            "end": 298.4,
+            "text": " could do this is to say that num is equal to num plus 1. And if we print out that num,"
+        },
+        {
+            "id": 48,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 299.2,
+            "end": 303.84,
+            "text": " then we can see that it did increment it by 1, and now it's equal to 2. But incrementing values"
+        },
+        {
+            "id": 49,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 303.84,
+            "end": 309.03999999999996,
+            "text": " is such a common operation that there is a shorthand for this. So instead, we can just say"
+        },
+        {
+            "id": 50,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 309.03999999999996,
+            "end": 315.84,
+            "text": " num plus equals 1. So if we run that, then we can see that it still incremented that value up to 2."
+        },
+        {
+            "id": 51,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 315.84,
+            "end": 320.96,
+            "text": " And you can use this syntax with the other operations as well. So instead, if we were to say"
+        },
+        {
+            "id": 52,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 320.96,
+            "end": 328.15999999999997,
+            "text": " num times equals 10, and ran this, then we can see that we got 10 because it took our original"
+        },
+        {
+            "id": 53,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 328.16,
+            "end": 335.52000000000004,
+            "text": " number and multiplied 1 by 10. Okay, so a couple more things here. We also have some built-in"
+        },
+        {
+            "id": 54,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 335.52000000000004,
+            "end": 341.6,
+            "text": " functions available to us to work with numbers. And one of these is abs for absolute value."
+        },
+        {
+            "id": 55,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 341.6,
+            "end": 347.28000000000003,
+            "text": " And basically, this will just remove the sign from any negative numbers. So if I took the absolute"
+        },
+        {
+            "id": 56,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 347.28000000000003,
+            "end": 353.76000000000005,
+            "text": " value of negative 3, and I'll just clean up a couple of lines there. Okay, so if we were to"
+        },
+        {
+            "id": 57,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 353.76,
+            "end": 359.68,
+            "text": " print out the absolute value of negative 3 and run that, then we can see down here that we just"
+        },
+        {
+            "id": 58,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 359.68,
+            "end": 365.44,
+            "text": " got the absolute value, which is 3. Now another built-in function that we have is round. And by"
+        },
+        {
+            "id": 59,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 365.44,
+            "end": 374.71999999999997,
+            "text": " default, this will round our values to the nearest integer value. So if we said print the round of"
+        },
+        {
+            "id": 60,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 374.71999999999997,
+            "end": 382.71999999999997,
+            "text": " 3.75 and run that, then we can see that 3.75 rounded up to 4. And we can also pass a second"
+        },
+        {
+            "id": 61,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 382.72,
+            "end": 388.48,
+            "text": " argument into our round function that tells it how many digits that we want to round to. So if I"
+        },
+        {
+            "id": 62,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 388.48,
+            "end": 396.32000000000005,
+            "text": " put in a comma here and pass in a 1 as a second argument, and now run this, and what we're saying"
+        },
+        {
+            "id": 63,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 396.32000000000005,
+            "end": 401.84000000000003,
+            "text": " is that we want to round to the first digit after the decimal. So we can see that that rounded to"
+        },
+        {
+            "id": 64,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 401.84000000000003,
+            "end": 407.68,
+            "text": " 3.8. Okay, so another common thing that you need to do when working with numbers is to use"
+        },
+        {
+            "id": 65,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 407.76,
+            "end": 413.84000000000003,
+            "text": " comparisons. Now we'll want to know if two values are equal, greater than, less than, and all of that."
+        },
+        {
+            "id": 66,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 413.84000000000003,
+            "end": 419.12,
+            "text": " So to test this, we can use comparison operators. And I have some comments over here in my snippets"
+        },
+        {
+            "id": 67,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 419.12,
+            "end": 425.2,
+            "text": " with the comparison operators as well. And I'm just going to paste over the arithmetic operators"
+        },
+        {
+            "id": 68,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 425.2,
+            "end": 430.48,
+            "text": " that we've already gone over and paste those in. Now these comparisons are going to return Booleans,"
+        },
+        {
+            "id": 69,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 430.48,
+            "end": 435.44,
+            "text": " which are true false values. We'll be learning more about Booleans in a future video when we go"
+        },
+        {
+            "id": 70,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 435.44,
+            "end": 440.8,
+            "text": " over conditionals. But we'll see them here for the first time. So let's say I have two variables"
+        },
+        {
+            "id": 71,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 440.8,
+            "end": 448.32,
+            "text": " here, and we'll just call these two variables num1 and set that equal to 3. And we'll do num2"
+        },
+        {
+            "id": 72,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 448.32,
+            "end": 454.96,
+            "text": " is equal to 2. So now let's run through all of these comparisons. So first, let's say that we"
+        },
+        {
+            "id": 73,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 454.96,
+            "end": 461.52,
+            "text": " wanted to check if these two variables were equal. So I could say num1, and you can see up here that"
+        },
+        {
+            "id": 74,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 461.52,
+            "end": 466.71999999999997,
+            "text": " the equals comparison is double equals. Now you don't want to use the single equals because the"
+        },
+        {
+            "id": 75,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 466.71999999999997,
+            "end": 472.24,
+            "text": " single equals is this assignment here. So the double equals is comparison, the single equals"
+        },
+        {
+            "id": 76,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 472.24,
+            "end": 479.12,
+            "text": " is assignment. So we want to compare is num1 equal to num2. And if we run that, then we can"
+        },
+        {
+            "id": 77,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 479.12,
+            "end": 484.88,
+            "text": " see that it returns false because those two values are not equal. Now if I wanted to check if they"
+        },
+        {
+            "id": 78,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 484.88,
+            "end": 491.12,
+            "text": " weren't equal, then I could use the exclamation point before the equal sign here, exclamation point"
+        },
+        {
+            "id": 79,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 491.12,
+            "end": 497.44,
+            "text": " equals. And if we run that, then we can see that we got true because these two values are not equal."
+        },
+        {
+            "id": 80,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 497.44,
+            "end": 505.2,
+            "text": " Now I can check if num1 is greater than num2 by using the greater than sign. So I can save that"
+        },
+        {
+            "id": 81,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 505.2,
+            "end": 511.84,
+            "text": " and run it. And we can see that we got true because num1 is 3, num2 is 2. So 3 is greater than 2."
+        },
+        {
+            "id": 82,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 511.84,
+            "end": 516.64,
+            "text": " And if you wanted to check less than, then you can just use the less than sign. So if we run that,"
+        },
+        {
+            "id": 83,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 516.64,
+            "end": 521.28,
+            "text": " you can see we got false. And you can also use the equal signs with these as well. So if I wanted to"
+        },
+        {
+            "id": 84,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 521.28,
+            "end": 527.12,
+            "text": " check if this was greater than or equal to, then we could run that. We can see that it's true. And"
+        },
+        {
+            "id": 85,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 527.12,
+            "end": 531.92,
+            "text": " if we want to check less than or equal to, then we can use those as well. And if we print that,"
+        },
+        {
+            "id": 86,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 531.92,
+            "end": 536.0799999999999,
+            "text": " we can see that we got false. Okay, so now we're going to look at one more thing. I'm just going"
+        },
+        {
+            "id": 87,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 536.0799999999999,
+            "end": 541.76,
+            "text": " to delete these in order to get some more room. Now I will have these comments up on my GitHub page,"
+        },
+        {
+            "id": 88,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 541.76,
+            "end": 545.84,
+            "text": " if you want a reference to the arithmetic operators and the comparisons that we just"
+        },
+        {
+            "id": 89,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 545.84,
+            "end": 551.6,
+            "text": " looked at. Okay, so in the last video, we learned about strings. Now it's possible that you have"
+        },
+        {
+            "id": 90,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 551.6,
+            "end": 556.64,
+            "text": " something that looks like a number, but it could actually be a string. So let's look at a problem"
+        },
+        {
+            "id": 91,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 556.64,
+            "end": 561.04,
+            "text": " that we can run into if that's the case, and then we'll see how to solve it. So let's say that you"
+        },
+        {
+            "id": 92,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 561.04,
+            "end": 566.16,
+            "text": " have some variables that look like numbers. So maybe we read these in from a text file or got"
+        },
+        {
+            "id": 93,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 566.16,
+            "end": 572.3199999999999,
+            "text": " them from a website or something like that. So just to give an example, let's recreate our num1,"
+        },
+        {
+            "id": 94,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 572.3199999999999,
+            "end": 578.4,
+            "text": " but this time we're going to set these equal in single quotes here. We'll set this to 100,"
+        },
+        {
+            "id": 95,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 578.4,
+            "end": 586.24,
+            "text": " and num2 we'll set equal to inside single quotes 200. So I explicitly set these equal to strings,"
+        },
+        {
+            "id": 96,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 586.24,
+            "end": 590.88,
+            "text": " so it's obvious to us that they're strings, but it might not be so obvious to us if we got these"
+        },
+        {
+            "id": 97,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 590.88,
+            "end": 596.4,
+            "text": " values from somewhere else. So now let's say that we want to add these values together. So if I was"
+        },
+        {
+            "id": 98,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 596.4,
+            "end": 607.04,
+            "text": " to say print num1 plus num2, and if we run this, then we can see that this isn't the result that"
+        },
+        {
+            "id": 99,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 607.04,
+            "end": 612.96,
+            "text": " we thought it would be. Now if you remember from our string video, when we add strings together,"
+        },
+        {
+            "id": 100,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 612.96,
+            "end": 619.2,
+            "text": " it just concatenates those together. So this is what we would expect with strings, but with numbers"
+        },
+        {
+            "id": 101,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 619.2,
+            "end": 624.48,
+            "text": " we would expect this to be 300. So in order to turn these into integers, we're going to have to"
+        },
+        {
+            "id": 102,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 624.48,
+            "end": 630.96,
+            "text": " do something called casting, and casting is super easy in Python. So to cast these values from string"
+        },
+        {
+            "id": 103,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 630.96,
+            "end": 637.76,
+            "text": " to integers, then we'll just add a couple lines here, and I will copy these, and we'll just say"
+        },
+        {
+            "id": 104,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 637.76,
+            "end": 645.44,
+            "text": " that num1 equals int num1. So we just casted that to an integer, and we can do the same thing here"
+        },
+        {
+            "id": 105,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 645.44,
+            "end": 652.6400000000001,
+            "text": " with num2. So now if we save that and run it, then we can see that we got 300. So if you have"
+        },
+        {
+            "id": 106,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 652.6400000000001,
+            "end": 657.7600000000001,
+            "text": " an integer that's actually a string, and you want to cast that to an integer, then you can wrap that"
+        },
+        {
+            "id": 107,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 657.7600000000001,
+            "end": 663.6,
+            "text": " string in this int function or this int class here to create an integer. Okay, so I think that is"
+        },
+        {
+            "id": 108,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 663.6,
+            "end": 667.36,
+            "text": " going to do it for this video. I hope that now you feel comfortable working with integers and"
+        },
+        {
+            "id": 109,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 667.36,
+            "end": 672.6400000000001,
+            "text": " floating point values, and in the next video we'll be learning about lists, sets, and tuples, which"
+        },
+        {
+            "id": 110,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 672.64,
+            "end": 678.48,
+            "text": " basically allow us to hold sequences of data and is extremely useful to learn how to use properly."
+        },
+        {
+            "id": 111,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 678.48,
+            "end": 682.16,
+            "text": " But if anyone has any questions about what we covered in this video, then feel free to ask in"
+        },
+        {
+            "id": 112,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 682.16,
+            "end": 685.92,
+            "text": " the comment section below and I'll do my best to answer those. If you enjoy these tutorials and"
+        },
+        {
+            "id": 113,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 685.92,
+            "end": 689.52,
+            "text": " would like to support them, then there are several ways you can do that. The easiest way is to simply"
+        },
+        {
+            "id": 114,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 689.52,
+            "end": 693.52,
+            "text": " like the video and give it a thumbs up, and also it's a huge help to share these videos with anyone"
+        },
+        {
+            "id": 115,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 693.52,
+            "end": 697.12,
+            "text": " who you think would find them useful. And if you have the means, you can contribute through Patreon,"
+        },
+        {
+            "id": 116,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 697.12,
+            "end": 700.96,
+            "text": " and there's a link to that page in the description section below. Be sure to subscribe for future"
+        },
+        {
+            "id": 117,
+            "number": "01",
+            "title": "DataTypes",
+            "start": 700.96,
+            "end": 706.64,
+            "text": " videos, and thank you all for watching!"
+        }
+    ],
+    "text": " Hey there, how's it going everybody? In this video we'll be learning how to work with numeric data in Python. And numbers are most commonly represented with integers and floats. And the difference between an integer and a float is that an integer is a whole number and a float is a decimal. So to see an example of this, let's create a variable called num and let's just set this equal to three. Now Python has a built in function called type, where we can see the data type of an object. So if we print out the type of num and run this, then we can see that it returns that that is of the class integer. Now if we were to set this number instead to 3.14, and now rerun this, then we can see that now the type of number is a float. So that's the main difference between an integer and a float. Now when working with numeric data, it's common that you'll need to use some basic arithmetic. So let me grab some comments from my snippets here, just so that we have a reference for everything that we can do. So I'll copy these arithmetic operators and paste these in. And now let's go ahead and just run through each of these. So the first four we've likely already seen a lot and are familiar with. So for example, addition, if we print it out 3 plus 2, then we can expect that that's equal to 5. If we print out 3 minus 2, that should be 1. 3 times 2 should be equal to 6. And 3 divided by 2 should be equal to 1.5. Now for division to behave this way, this is actually new in Python 3. If you're running Python 2, then this will actually equal 1 because it drops the decimal. But in Python 3, that gives us the right answer of 1.5. Now if we don't want to drop that decimal, then we do have a floor division. And floor division can be performed by adding two division signs. So if I run this, and now we can see it drops that decimal and it's equal to 1. So if you ever see these two division signs, then that is this floor division. Now if you wanted to work with exponents and powers, then we can use these two multiplication signs. So if we wanted to print 3 to the second power, then we could just say 3 with these two multiplication signs. And if I print that, then we can see that that equals 9 because 3 squared is equal to 9. Now this last operator here is called a modulo operator, and it gives us the remainder after a division. So 3 mod 2 will have a remainder of 1 because 2 goes into 3 once with 1 left over. So if we say 3 mod 2 and run that, then we can see that that is equal to 1. Now a common use case for this is to tell if a number is even or odd. Now the reason for this is because every time you divide a number by 2, there are only two possible remainders. It's either going to be 0 or 1. So for example, if we look at a few more examples here, so let me just print out a few more modulo operators, and I'll do 2 mod 2, 3 mod 2, 4 mod 2, and 5 mod 2. So if we run this, then we can see that 2 goes into 2 once with no remainders. That's why we get a 0. 2 goes into 3 once with 1 as a remainder. So 2 goes into 4 twice with no remainder, and 2 goes into 5 twice with 1 as a remainder. So we can see from this pattern that if you do a mod 2 on any number and there is no remainder, then that number is even. If you do a mod 2 on any number and the remainder is 1, then that number is odd. And that's a pretty common check that you'll use a lot throughout Python programming. Okay, so now let's look at the order of operations. Just like we would expect, we can also use parentheses to change the order of operations just like with normal arithmetic. So for example, if we were to say, let's see, 3 times 2 plus 1, and with the normal order of operations, we would multiply 3 and 2, which would give us 6. And then we would add 1, which would give us 7. So if we run that, then we can see that we got 7 as our answer. But if I put a parentheses here around this 2 plus 1, then now with normal arithmetic, the way that this would work is that it should first add up these numbers in the parentheses, which should give us 3. And then 3 times 3 should give us 9. So now if we run this, then we can see that we got 9. The order of operations does work correctly within Python like we would expect. Okay, so now let's look at another common operation that you'll see a lot, and that is incrementing a variable. So if I make a variable here called num, and I set this equal to 1, then what are some ways that we can increment that value by 1? Well, one way that we could do this is to say that num is equal to num plus 1. And if we print out that num, then we can see that it did increment it by 1, and now it's equal to 2. But incrementing values is such a common operation that there is a shorthand for this. So instead, we can just say num plus equals 1. So if we run that, then we can see that it still incremented that value up to 2. And you can use this syntax with the other operations as well. So instead, if we were to say num times equals 10, and ran this, then we can see that we got 10 because it took our original number and multiplied 1 by 10. Okay, so a couple more things here. We also have some built-in functions available to us to work with numbers. And one of these is abs for absolute value. And basically, this will just remove the sign from any negative numbers. So if I took the absolute value of negative 3, and I'll just clean up a couple of lines there. Okay, so if we were to print out the absolute value of negative 3 and run that, then we can see down here that we just got the absolute value, which is 3. Now another built-in function that we have is round. And by default, this will round our values to the nearest integer value. So if we said print the round of 3.75 and run that, then we can see that 3.75 rounded up to 4. And we can also pass a second argument into our round function that tells it how many digits that we want to round to. So if I put in a comma here and pass in a 1 as a second argument, and now run this, and what we're saying is that we want to round to the first digit after the decimal. So we can see that that rounded to 3.8. Okay, so another common thing that you need to do when working with numbers is to use comparisons. Now we'll want to know if two values are equal, greater than, less than, and all of that. So to test this, we can use comparison operators. And I have some comments over here in my snippets with the comparison operators as well. And I'm just going to paste over the arithmetic operators that we've already gone over and paste those in. Now these comparisons are going to return Booleans, which are true false values. We'll be learning more about Booleans in a future video when we go over conditionals. But we'll see them here for the first time. So let's say I have two variables here, and we'll just call these two variables num1 and set that equal to 3. And we'll do num2 is equal to 2. So now let's run through all of these comparisons. So first, let's say that we wanted to check if these two variables were equal. So I could say num1, and you can see up here that the equals comparison is double equals. Now you don't want to use the single equals because the single equals is this assignment here. So the double equals is comparison, the single equals is assignment. So we want to compare is num1 equal to num2. And if we run that, then we can see that it returns false because those two values are not equal. Now if I wanted to check if they weren't equal, then I could use the exclamation point before the equal sign here, exclamation point equals. And if we run that, then we can see that we got true because these two values are not equal. Now I can check if num1 is greater than num2 by using the greater than sign. So I can save that and run it. And we can see that we got true because num1 is 3, num2 is 2. So 3 is greater than 2. And if you wanted to check less than, then you can just use the less than sign. So if we run that, you can see we got false. And you can also use the equal signs with these as well. So if I wanted to check if this was greater than or equal to, then we could run that. We can see that it's true. And if we want to check less than or equal to, then we can use those as well. And if we print that, we can see that we got false. Okay, so now we're going to look at one more thing. I'm just going to delete these in order to get some more room. Now I will have these comments up on my GitHub page, if you want a reference to the arithmetic operators and the comparisons that we just looked at. Okay, so in the last video, we learned about strings. Now it's possible that you have something that looks like a number, but it could actually be a string. So let's look at a problem that we can run into if that's the case, and then we'll see how to solve it. So let's say that you have some variables that look like numbers. So maybe we read these in from a text file or got them from a website or something like that. So just to give an example, let's recreate our num1, but this time we're going to set these equal in single quotes here. We'll set this to 100, and num2 we'll set equal to inside single quotes 200. So I explicitly set these equal to strings, so it's obvious to us that they're strings, but it might not be so obvious to us if we got these values from somewhere else. So now let's say that we want to add these values together. So if I was to say print num1 plus num2, and if we run this, then we can see that this isn't the result that we thought it would be. Now if you remember from our string video, when we add strings together, it just concatenates those together. So this is what we would expect with strings, but with numbers we would expect this to be 300. So in order to turn these into integers, we're going to have to do something called casting, and casting is super easy in Python. So to cast these values from string to integers, then we'll just add a couple lines here, and I will copy these, and we'll just say that num1 equals int num1. So we just casted that to an integer, and we can do the same thing here with num2. So now if we save that and run it, then we can see that we got 300. So if you have an integer that's actually a string, and you want to cast that to an integer, then you can wrap that string in this int function or this int class here to create an integer. Okay, so I think that is going to do it for this video. I hope that now you feel comfortable working with integers and floating point values, and in the next video we'll be learning about lists, sets, and tuples, which basically allow us to hold sequences of data and is extremely useful to learn how to use properly. But if anyone has any questions about what we covered in this video, then feel free to ask in the comment section below and I'll do my best to answer those. If you enjoy these tutorials and would like to support them, then there are several ways you can do that. The easiest way is to simply like the video and give it a thumbs up, and also it's a huge help to share these videos with anyone who you think would find them useful. And if you have the means, you can contribute through Patreon, and there's a link to that page in the description section below. Be sure to subscribe for future videos, and thank you all for watching!"
+}

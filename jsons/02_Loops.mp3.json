@@ -1,0 +1,797 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "number": "02",
+            "title": "Loops",
+            "start": 0.0,
+            "end": 4.32,
+            "text": " Hey there, how's it going everybody? In this video we'll be learning about loops and iterations."
+        },
+        {
+            "id": 1,
+            "number": "02",
+            "title": "Loops",
+            "start": 4.32,
+            "end": 9.36,
+            "text": " Specifically we'll be going over for loops and while loops. Now we've seen loops a couple of"
+        },
+        {
+            "id": 2,
+            "number": "02",
+            "title": "Loops",
+            "start": 9.36,
+            "end": 13.84,
+            "text": " times in our previous videos when looping through strings or lists, but there's some"
+        },
+        {
+            "id": 3,
+            "number": "02",
+            "title": "Loops",
+            "start": 13.84,
+            "end": 18.8,
+            "text": " more functionality that we haven't gone over yet that we'll see in this video. But first let's just"
+        },
+        {
+            "id": 4,
+            "number": "02",
+            "title": "Loops",
+            "start": 18.8,
+            "end": 24.64,
+            "text": " do a quick recap. So we've got a list of numbers here with numbers one through five. So let's loop"
+        },
+        {
+            "id": 5,
+            "number": "02",
+            "title": "Loops",
+            "start": 24.64,
+            "end": 31.44,
+            "text": " through this list. So to do this we're going to use a for loop. So we'll say for num in nums and"
+        },
+        {
+            "id": 6,
+            "number": "02",
+            "title": "Loops",
+            "start": 31.44,
+            "end": 36.480000000000004,
+            "text": " within here I'm just going to print out that num. So what we're saying here is that we want to"
+        },
+        {
+            "id": 7,
+            "number": "02",
+            "title": "Loops",
+            "start": 36.480000000000004,
+            "end": 42.56,
+            "text": " create a loop where we're looping through each value of our list and each time through the loop"
+        },
+        {
+            "id": 8,
+            "number": "02",
+            "title": "Loops",
+            "start": 42.56,
+            "end": 48.56,
+            "text": " this num variable will be equal to the next item in the list. So the first time through it'll be"
+        },
+        {
+            "id": 9,
+            "number": "02",
+            "title": "Loops",
+            "start": 48.56,
+            "end": 55.28,
+            "text": " equal to one, the next time through it'll be equal to two, and so on. So if we run this we can see that"
+        },
+        {
+            "id": 10,
+            "number": "02",
+            "title": "Loops",
+            "start": 55.28,
+            "end": 61.92,
+            "text": " it looped through and printed each number of our list. So now let's look at two important keywords"
+        },
+        {
+            "id": 11,
+            "number": "02",
+            "title": "Loops",
+            "start": 61.92,
+            "end": 68.96000000000001,
+            "text": " when working with loops and these are the break and continue keywords. So the break keyword will"
+        },
+        {
+            "id": 12,
+            "number": "02",
+            "title": "Loops",
+            "start": 68.96000000000001,
+            "end": 76.16,
+            "text": " completely break out of a loop and the continue keyword moves on to the next iteration of the loop."
+        },
+        {
+            "id": 13,
+            "number": "02",
+            "title": "Loops",
+            "start": 76.16,
+            "end": 82.24,
+            "text": " So first let's look at the break statement. So let's say that we are looking for a certain number"
+        },
+        {
+            "id": 14,
+            "number": "02",
+            "title": "Loops",
+            "start": 82.24,
+            "end": 87.6,
+            "text": " in our list and once we find it we don't need to continue looping through the rest of our values."
+        },
+        {
+            "id": 15,
+            "number": "02",
+            "title": "Loops",
+            "start": 87.6,
+            "end": 92.64,
+            "text": " Now this is when the break statement comes in handy. So let's say that we're looking for the"
+        },
+        {
+            "id": 16,
+            "number": "02",
+            "title": "Loops",
+            "start": 92.64,
+            "end": 100.56,
+            "text": " value of three. So I could come in here to our list and I could say if num equals equals three"
+        },
+        {
+            "id": 17,
+            "number": "02",
+            "title": "Loops",
+            "start": 100.56,
+            "end": 110.24000000000001,
+            "text": " then within this conditional we'll print out that we found it and then we will break out of that loop."
+        },
+        {
+            "id": 18,
+            "number": "02",
+            "title": "Loops",
+            "start": 110.24000000000001,
+            "end": 117.28,
+            "text": " So now let's go ahead and run this. So we can see that it looped through the numbers one and two"
+        },
+        {
+            "id": 19,
+            "number": "02",
+            "title": "Loops",
+            "start": 117.28,
+            "end": 123.84,
+            "text": " but it didn't hit this conditional when the num equaled one and the num equaled two. And since"
+        },
+        {
+            "id": 20,
+            "number": "02",
+            "title": "Loops",
+            "start": 123.84,
+            "end": 128.8,
+            "text": " those first two values didn't meet this conditional then it didn't print out found and it didn't break"
+        },
+        {
+            "id": 21,
+            "number": "02",
+            "title": "Loops",
+            "start": 128.8,
+            "end": 134.48000000000002,
+            "text": " out of the loop. But when it got to number three it did meet this conditional so it printed out"
+        },
+        {
+            "id": 22,
+            "number": "02",
+            "title": "Loops",
+            "start": 134.48000000000002,
+            "end": 140.08,
+            "text": " found and then our break statement broke out of the for loop. And when it broke out of the for loop"
+        },
+        {
+            "id": 23,
+            "number": "02",
+            "title": "Loops",
+            "start": 140.08,
+            "end": 146.24,
+            "text": " you can see that we didn't iterate through any more values. So we did not get through to values"
+        },
+        {
+            "id": 24,
+            "number": "02",
+            "title": "Loops",
+            "start": 146.24,
+            "end": 154.32000000000002,
+            "text": " four or values five. Now notice that we broke out of our loop before we printed the number. So the"
+        },
+        {
+            "id": 25,
+            "number": "02",
+            "title": "Loops",
+            "start": 154.32,
+            "end": 159.35999999999999,
+            "text": " three never got printed out but if our print statement were above this conditional then the"
+        },
+        {
+            "id": 26,
+            "number": "02",
+            "title": "Loops",
+            "start": 159.35999999999999,
+            "end": 164.64,
+            "text": " three would have been printed out. So the break statement breaks out of the loop but what if we"
+        },
+        {
+            "id": 27,
+            "number": "02",
+            "title": "Loops",
+            "start": 164.64,
+            "end": 171.12,
+            "text": " wanted to just ignore a value but not break out of the loop completely. So to do this we can use the"
+        },
+        {
+            "id": 28,
+            "number": "02",
+            "title": "Loops",
+            "start": 171.12,
+            "end": 177.44,
+            "text": " continue statement. Now continue will skip to the next iteration of a loop. So if we replace this"
+        },
+        {
+            "id": 29,
+            "number": "02",
+            "title": "Loops",
+            "start": 177.44,
+            "end": 184.88,
+            "text": " break statement with continue and run this so we can see here that just like before the first two"
+        },
+        {
+            "id": 30,
+            "number": "02",
+            "title": "Loops",
+            "start": 184.88,
+            "end": 190.24,
+            "text": " times through with one and two it didn't meet this conditional so it didn't do anything within this"
+        },
+        {
+            "id": 31,
+            "number": "02",
+            "title": "Loops",
+            "start": 190.24,
+            "end": 195.76,
+            "text": " if block and it just printed out our number. But when we got to the number three it did meet this"
+        },
+        {
+            "id": 32,
+            "number": "02",
+            "title": "Loops",
+            "start": 195.76,
+            "end": 201.36,
+            "text": " conditional and it came in here and printed out found and then our continue statement just skipped"
+        },
+        {
+            "id": 33,
+            "number": "02",
+            "title": "Loops",
+            "start": 201.36,
+            "end": 207.04,
+            "text": " to the next iteration without coming out here and printing out the number three. So as soon as we hit"
+        },
+        {
+            "id": 34,
+            "number": "02",
+            "title": "Loops",
+            "start": 207.04,
+            "end": 213.92,
+            "text": " continue then it just went to the next iteration which was four and five. So when four and five ran"
+        },
+        {
+            "id": 35,
+            "number": "02",
+            "title": "Loops",
+            "start": 213.92,
+            "end": 217.84,
+            "text": " through they didn't meet these conditionals and it just printed out the number. So it's important to"
+        },
+        {
+            "id": 36,
+            "number": "02",
+            "title": "Loops",
+            "start": 217.84,
+            "end": 222.56,
+            "text": " understand the break and continue statements and the differences between those because there's a"
+        },
+        {
+            "id": 37,
+            "number": "02",
+            "title": "Loops",
+            "start": 222.56,
+            "end": 227.6,
+            "text": " lot of different use cases for when they come in handy to solve certain problems. Okay so now let's"
+        },
+        {
+            "id": 38,
+            "number": "02",
+            "title": "Loops",
+            "start": 227.6,
+            "end": 233.35999999999999,
+            "text": " look at something that we might run into which is a loop within a loop and this is possible. So"
+        },
+        {
+            "id": 39,
+            "number": "02",
+            "title": "Loops",
+            "start": 233.36,
+            "end": 239.20000000000002,
+            "text": " within our loop here I'm going to replace this conditional with an inner loop. So now I'll say"
+        },
+        {
+            "id": 40,
+            "number": "02",
+            "title": "Loops",
+            "start": 239.20000000000002,
+            "end": 246.64000000000001,
+            "text": " for letter n and I'll just make a string here of abc. Now within this inner loop then I'll just go"
+        },
+        {
+            "id": 41,
+            "number": "02",
+            "title": "Loops",
+            "start": 246.64000000000001,
+            "end": 254.0,
+            "text": " ahead and print out num comma and the letter. So now what's going to happen here is that for each"
+        },
+        {
+            "id": 42,
+            "number": "02",
+            "title": "Loops",
+            "start": 254.0,
+            "end": 260.32,
+            "text": " number it'll loop through every character in this string and print out the number and the character"
+        },
+        {
+            "id": 43,
+            "number": "02",
+            "title": "Loops",
+            "start": 260.32,
+            "end": 266.48,
+            "text": " and then move on to the next number and do it all over again. So let's run this and see what we get."
+        },
+        {
+            "id": 44,
+            "number": "02",
+            "title": "Loops",
+            "start": 266.48,
+            "end": 272.15999999999997,
+            "text": " So now let me make this just a little bit larger here. So now we can see that what happened is that"
+        },
+        {
+            "id": 45,
+            "number": "02",
+            "title": "Loops",
+            "start": 272.15999999999997,
+            "end": 278.48,
+            "text": " for one it looped through every letter in the string and then after it finished that inner loop"
+        },
+        {
+            "id": 46,
+            "number": "02",
+            "title": "Loops",
+            "start": 278.48,
+            "end": 285.12,
+            "text": " then it moved on to the next number before doing the exact same thing. So we have 1a, 1b, 1c then"
+        },
+        {
+            "id": 47,
+            "number": "02",
+            "title": "Loops",
+            "start": 285.12,
+            "end": 291.36,
+            "text": " it moved on to 2, 2a, 2b, 2c and so on. So what this really did is it gave us every combination"
+        },
+        {
+            "id": 48,
+            "number": "02",
+            "title": "Loops",
+            "start": 291.36,
+            "end": 296.56,
+            "text": " of those numbers and characters. Now you want to be careful with nested lists because these"
+        },
+        {
+            "id": 49,
+            "number": "02",
+            "title": "Loops",
+            "start": 296.56,
+            "end": 302.0,
+            "text": " combinations can grow pretty quickly. So if you have nested loops with a lot of different values"
+        },
+        {
+            "id": 50,
+            "number": "02",
+            "title": "Loops",
+            "start": 302.0,
+            "end": 307.04,
+            "text": " then it may take a while to loop through all of those different combinations. Okay so something"
+        },
+        {
+            "id": 51,
+            "number": "02",
+            "title": "Loops",
+            "start": 307.04,
+            "end": 312.48,
+            "text": " that we'll probably run into a lot is that there's going to be times when we just want to go through"
+        },
+        {
+            "id": 52,
+            "number": "02",
+            "title": "Loops",
+            "start": 312.48,
+            "end": 318.40000000000003,
+            "text": " a loop a certain number of times and there's a built-in function called range that is really"
+        },
+        {
+            "id": 53,
+            "number": "02",
+            "title": "Loops",
+            "start": 318.40000000000003,
+            "end": 324.48,
+            "text": " useful for this. So let's say that we wanted to just run through a loop 10 times. So to do this"
+        },
+        {
+            "id": 54,
+            "number": "02",
+            "title": "Loops",
+            "start": 324.48,
+            "end": 334.8,
+            "text": " we can just say for i in range 10 and within here we will just print out i. So now if we run this"
+        },
+        {
+            "id": 55,
+            "number": "02",
+            "title": "Loops",
+            "start": 334.8,
+            "end": 341.84000000000003,
+            "text": " then we can see that it just prints out 0 through 9 which is 10 items. So we start at 0 and go up to"
+        },
+        {
+            "id": 56,
+            "number": "02",
+            "title": "Loops",
+            "start": 341.84,
+            "end": 348.23999999999995,
+            "text": " but not including this number that we passed into range. Now if we don't want to start at 0 then we"
+        },
+        {
+            "id": 57,
+            "number": "02",
+            "title": "Loops",
+            "start": 348.23999999999995,
+            "end": 353.84,
+            "text": " can also pass a starting value into range. So if we wanted to start at 1 and print out the"
+        },
+        {
+            "id": 58,
+            "number": "02",
+            "title": "Loops",
+            "start": 354.64,
+            "end": 361.91999999999996,
+            "text": " the values 1 through 10 then what we could do is say that we want to start at 1 and now we're going"
+        },
+        {
+            "id": 59,
+            "number": "02",
+            "title": "Loops",
+            "start": 361.91999999999996,
+            "end": 368.47999999999996,
+            "text": " to have to go up to 11 because it doesn't include the last value. So now if we run this then we can"
+        },
+        {
+            "id": 60,
+            "number": "02",
+            "title": "Loops",
+            "start": 368.48,
+            "end": 375.6,
+            "text": " see that now it started at 1 and goes up to but not including 11. So 1 through 10. Okay so now"
+        },
+        {
+            "id": 61,
+            "number": "02",
+            "title": "Loops",
+            "start": 375.6,
+            "end": 382.88,
+            "text": " let's take a look at while loops. So our for loops iterated through a certain number of values but"
+        },
+        {
+            "id": 62,
+            "number": "02",
+            "title": "Loops",
+            "start": 382.88,
+            "end": 389.36,
+            "text": " while loops will just keep going into a until a certain condition is met or until we hit a break."
+        },
+        {
+            "id": 63,
+            "number": "02",
+            "title": "Loops",
+            "start": 389.36,
+            "end": 397.04,
+            "text": " So for example let's say that we had a variable here of x equal to 0 and now we can say that while"
+        },
+        {
+            "id": 64,
+            "number": "02",
+            "title": "Loops",
+            "start": 397.12,
+            "end": 406.96000000000004,
+            "text": " that x is less than 10 then what we want to do is just print out x and then we will iterate x by 1."
+        },
+        {
+            "id": 65,
+            "number": "02",
+            "title": "Loops",
+            "start": 406.96000000000004,
+            "end": 413.36,
+            "text": " Now we have to remember that this loop is going to go on forever until this condition here evaluates"
+        },
+        {
+            "id": 66,
+            "number": "02",
+            "title": "Loops",
+            "start": 413.36,
+            "end": 420.16,
+            "text": " to false. So if we want this loop to end at some point then we have to remember to increment this x"
+        },
+        {
+            "id": 67,
+            "number": "02",
+            "title": "Loops",
+            "start": 420.16,
+            "end": 427.12,
+            "text": " so that at some point it will be greater than or equal to 10 so that it breaks out. So now if we"
+        },
+        {
+            "id": 68,
+            "number": "02",
+            "title": "Loops",
+            "start": 427.12,
+            "end": 433.92,
+            "text": " run this then we can see that it prints out 0 through 9. So it came in and saw that x was 0"
+        },
+        {
+            "id": 69,
+            "number": "02",
+            "title": "Loops",
+            "start": 433.92,
+            "end": 440.08000000000004,
+            "text": " which is less than 10. So it goes through the loop prints the value and increments x by 1."
+        },
+        {
+            "id": 70,
+            "number": "02",
+            "title": "Loops",
+            "start": 440.08000000000004,
+            "end": 446.96000000000004,
+            "text": " Now x is equal to 1 and it does this check again. So 1 is still less than 10 so it stays in the loop"
+        },
+        {
+            "id": 71,
+            "number": "02",
+            "title": "Loops",
+            "start": 446.96,
+            "end": 454.4,
+            "text": " and it does this until we increment x from 9 to 10 and then it'll come in here and make that check"
+        },
+        {
+            "id": 72,
+            "number": "02",
+            "title": "Loops",
+            "start": 454.4,
+            "end": 460.64,
+            "text": " and it checks if 10 is less than 10 which it doesn't which evaluates to false. So it breaks"
+        },
+        {
+            "id": 73,
+            "number": "02",
+            "title": "Loops",
+            "start": 460.64,
+            "end": 467.59999999999997,
+            "text": " out of that loop. Now at any point you can just use a break to break out of the while loop just"
+        },
+        {
+            "id": 74,
+            "number": "02",
+            "title": "Loops",
+            "start": 467.59999999999997,
+            "end": 475.35999999999996,
+            "text": " like we did with the for loop. So if I came in here and I said if x is equal to 5 then we just"
+        },
+        {
+            "id": 75,
+            "number": "02",
+            "title": "Loops",
+            "start": 475.36,
+            "end": 481.84000000000003,
+            "text": " want to break out. So if we run that then we can see that it went 0 through 4 and once x was equal"
+        },
+        {
+            "id": 76,
+            "number": "02",
+            "title": "Loops",
+            "start": 481.84000000000003,
+            "end": 487.52000000000004,
+            "text": " to 5 then we hit that break statement. Now sometimes you'll just want to create an infinite loop that"
+        },
+        {
+            "id": 77,
+            "number": "02",
+            "title": "Loops",
+            "start": 487.52000000000004,
+            "end": 494.0,
+            "text": " never ends until we get some input or find some value. Now to create an infinite loop you can just"
+        },
+        {
+            "id": 78,
+            "number": "02",
+            "title": "Loops",
+            "start": 494.0,
+            "end": 500.32,
+            "text": " replace the comparison that we're doing here with a value of true. So now that we have an infinite"
+        },
+        {
+            "id": 79,
+            "number": "02",
+            "title": "Loops",
+            "start": 500.32,
+            "end": 504.96000000000004,
+            "text": " loop there's no conditional here that can break out. So now we have to have this break statement"
+        },
+        {
+            "id": 80,
+            "number": "02",
+            "title": "Loops",
+            "start": 505.28,
+            "end": 511.12,
+            "text": " if we ever want to stop this loop. So if we run this then we can see that we get the same output"
+        },
+        {
+            "id": 81,
+            "number": "02",
+            "title": "Loops",
+            "start": 511.12,
+            "end": 516.4,
+            "text": " there. Now in this example we're using a conditional but this is also how you would keep a loop going"
+        },
+        {
+            "id": 82,
+            "number": "02",
+            "title": "Loops",
+            "start": 516.4,
+            "end": 521.52,
+            "text": " indefinitely until you find or receive values that you're looking for. Now if you ever accidentally"
+        },
+        {
+            "id": 83,
+            "number": "02",
+            "title": "Loops",
+            "start": 521.52,
+            "end": 527.6,
+            "text": " get stuck in an infinite loop then within most environments or operating systems you can interrupt"
+        },
+        {
+            "id": 84,
+            "number": "02",
+            "title": "Loops",
+            "start": 527.6,
+            "end": 534.4,
+            "text": " that by pressing ctrl c to stop the process. So if we comment out our conditional here with the"
+        },
+        {
+            "id": 85,
+            "number": "02",
+            "title": "Loops",
+            "start": 534.4,
+            "end": 541.36,
+            "text": " break statement then this is going to get stuck in an infinite loop and just go on forever. So now"
+        },
+        {
+            "id": 86,
+            "number": "02",
+            "title": "Loops",
+            "start": 541.36,
+            "end": 546.48,
+            "text": " if we run this code then we can see that we get stuck in this infinite loop where it just keeps"
+        },
+        {
+            "id": 87,
+            "number": "02",
+            "title": "Loops",
+            "start": 546.48,
+            "end": 552.48,
+            "text": " incrementing x by 1 and printing out x. Now to get out of this on most operating systems you can"
+        },
+        {
+            "id": 88,
+            "number": "02",
+            "title": "Loops",
+            "start": 552.48,
+            "end": 558.88,
+            "text": " press ctrl c and it'll interrupt that. So I press ctrl c and you can see that it was cancelled and"
+        },
+        {
+            "id": 89,
+            "number": "02",
+            "title": "Loops",
+            "start": 558.88,
+            "end": 565.84,
+            "text": " if you are in your terminal or command prompt then ctrl c should send a keyboard interrupt."
+        },
+        {
+            "id": 90,
+            "number": "02",
+            "title": "Loops",
+            "start": 565.84,
+            "end": 569.52,
+            "text": " Okay so I think that is going to do it for this video. I hope that now you have a clearer"
+        },
+        {
+            "id": 91,
+            "number": "02",
+            "title": "Loops",
+            "start": 569.52,
+            "end": 573.92,
+            "text": " understanding of the different loops and how the break and continue statements work. In the next"
+        },
+        {
+            "id": 92,
+            "number": "02",
+            "title": "Loops",
+            "start": 573.92,
+            "end": 578.48,
+            "text": " video we'll be learning how to write functions but if anyone has any questions about what we covered"
+        },
+        {
+            "id": 93,
+            "number": "02",
+            "title": "Loops",
+            "start": 578.48,
+            "end": 583.12,
+            "text": " in this video then feel free to ask in the comment section below and I'll do my best to answer those."
+        },
+        {
+            "id": 94,
+            "number": "02",
+            "title": "Loops",
+            "start": 583.12,
+            "end": 586.56,
+            "text": " If you enjoy these tutorials and would like to support them then there are several ways you can"
+        },
+        {
+            "id": 95,
+            "number": "02",
+            "title": "Loops",
+            "start": 586.64,
+            "end": 590.7199999999999,
+            "text": " do that. The easiest way is to simply like the video and give it a thumbs up and also it's a huge"
+        },
+        {
+            "id": 96,
+            "number": "02",
+            "title": "Loops",
+            "start": 590.7199999999999,
+            "end": 594.0799999999999,
+            "text": " help to share these videos with anyone who you think would find them useful and if you have the"
+        },
+        {
+            "id": 97,
+            "number": "02",
+            "title": "Loops",
+            "start": 594.0799999999999,
+            "end": 597.5999999999999,
+            "text": " means you can contribute through Patreon and there's a link to that page in the description"
+        },
+        {
+            "id": 98,
+            "number": "02",
+            "title": "Loops",
+            "start": 597.5999999999999,
+            "end": 605.52,
+            "text": " section below. Be sure to subscribe for future videos and thank you all for watching."
+        }
+    ],
+    "text": " Hey there, how's it going everybody? In this video we'll be learning about loops and iterations. Specifically we'll be going over for loops and while loops. Now we've seen loops a couple of times in our previous videos when looping through strings or lists, but there's some more functionality that we haven't gone over yet that we'll see in this video. But first let's just do a quick recap. So we've got a list of numbers here with numbers one through five. So let's loop through this list. So to do this we're going to use a for loop. So we'll say for num in nums and within here I'm just going to print out that num. So what we're saying here is that we want to create a loop where we're looping through each value of our list and each time through the loop this num variable will be equal to the next item in the list. So the first time through it'll be equal to one, the next time through it'll be equal to two, and so on. So if we run this we can see that it looped through and printed each number of our list. So now let's look at two important keywords when working with loops and these are the break and continue keywords. So the break keyword will completely break out of a loop and the continue keyword moves on to the next iteration of the loop. So first let's look at the break statement. So let's say that we are looking for a certain number in our list and once we find it we don't need to continue looping through the rest of our values. Now this is when the break statement comes in handy. So let's say that we're looking for the value of three. So I could come in here to our list and I could say if num equals equals three then within this conditional we'll print out that we found it and then we will break out of that loop. So now let's go ahead and run this. So we can see that it looped through the numbers one and two but it didn't hit this conditional when the num equaled one and the num equaled two. And since those first two values didn't meet this conditional then it didn't print out found and it didn't break out of the loop. But when it got to number three it did meet this conditional so it printed out found and then our break statement broke out of the for loop. And when it broke out of the for loop you can see that we didn't iterate through any more values. So we did not get through to values four or values five. Now notice that we broke out of our loop before we printed the number. So the three never got printed out but if our print statement were above this conditional then the three would have been printed out. So the break statement breaks out of the loop but what if we wanted to just ignore a value but not break out of the loop completely. So to do this we can use the continue statement. Now continue will skip to the next iteration of a loop. So if we replace this break statement with continue and run this so we can see here that just like before the first two times through with one and two it didn't meet this conditional so it didn't do anything within this if block and it just printed out our number. But when we got to the number three it did meet this conditional and it came in here and printed out found and then our continue statement just skipped to the next iteration without coming out here and printing out the number three. So as soon as we hit continue then it just went to the next iteration which was four and five. So when four and five ran through they didn't meet these conditionals and it just printed out the number. So it's important to understand the break and continue statements and the differences between those because there's a lot of different use cases for when they come in handy to solve certain problems. Okay so now let's look at something that we might run into which is a loop within a loop and this is possible. So within our loop here I'm going to replace this conditional with an inner loop. So now I'll say for letter n and I'll just make a string here of abc. Now within this inner loop then I'll just go ahead and print out num comma and the letter. So now what's going to happen here is that for each number it'll loop through every character in this string and print out the number and the character and then move on to the next number and do it all over again. So let's run this and see what we get. So now let me make this just a little bit larger here. So now we can see that what happened is that for one it looped through every letter in the string and then after it finished that inner loop then it moved on to the next number before doing the exact same thing. So we have 1a, 1b, 1c then it moved on to 2, 2a, 2b, 2c and so on. So what this really did is it gave us every combination of those numbers and characters. Now you want to be careful with nested lists because these combinations can grow pretty quickly. So if you have nested loops with a lot of different values then it may take a while to loop through all of those different combinations. Okay so something that we'll probably run into a lot is that there's going to be times when we just want to go through a loop a certain number of times and there's a built-in function called range that is really useful for this. So let's say that we wanted to just run through a loop 10 times. So to do this we can just say for i in range 10 and within here we will just print out i. So now if we run this then we can see that it just prints out 0 through 9 which is 10 items. So we start at 0 and go up to but not including this number that we passed into range. Now if we don't want to start at 0 then we can also pass a starting value into range. So if we wanted to start at 1 and print out the the values 1 through 10 then what we could do is say that we want to start at 1 and now we're going to have to go up to 11 because it doesn't include the last value. So now if we run this then we can see that now it started at 1 and goes up to but not including 11. So 1 through 10. Okay so now let's take a look at while loops. So our for loops iterated through a certain number of values but while loops will just keep going into a until a certain condition is met or until we hit a break. So for example let's say that we had a variable here of x equal to 0 and now we can say that while that x is less than 10 then what we want to do is just print out x and then we will iterate x by 1. Now we have to remember that this loop is going to go on forever until this condition here evaluates to false. So if we want this loop to end at some point then we have to remember to increment this x so that at some point it will be greater than or equal to 10 so that it breaks out. So now if we run this then we can see that it prints out 0 through 9. So it came in and saw that x was 0 which is less than 10. So it goes through the loop prints the value and increments x by 1. Now x is equal to 1 and it does this check again. So 1 is still less than 10 so it stays in the loop and it does this until we increment x from 9 to 10 and then it'll come in here and make that check and it checks if 10 is less than 10 which it doesn't which evaluates to false. So it breaks out of that loop. Now at any point you can just use a break to break out of the while loop just like we did with the for loop. So if I came in here and I said if x is equal to 5 then we just want to break out. So if we run that then we can see that it went 0 through 4 and once x was equal to 5 then we hit that break statement. Now sometimes you'll just want to create an infinite loop that never ends until we get some input or find some value. Now to create an infinite loop you can just replace the comparison that we're doing here with a value of true. So now that we have an infinite loop there's no conditional here that can break out. So now we have to have this break statement if we ever want to stop this loop. So if we run this then we can see that we get the same output there. Now in this example we're using a conditional but this is also how you would keep a loop going indefinitely until you find or receive values that you're looking for. Now if you ever accidentally get stuck in an infinite loop then within most environments or operating systems you can interrupt that by pressing ctrl c to stop the process. So if we comment out our conditional here with the break statement then this is going to get stuck in an infinite loop and just go on forever. So now if we run this code then we can see that we get stuck in this infinite loop where it just keeps incrementing x by 1 and printing out x. Now to get out of this on most operating systems you can press ctrl c and it'll interrupt that. So I press ctrl c and you can see that it was cancelled and if you are in your terminal or command prompt then ctrl c should send a keyboard interrupt. Okay so I think that is going to do it for this video. I hope that now you have a clearer understanding of the different loops and how the break and continue statements work. In the next video we'll be learning how to write functions but if anyone has any questions about what we covered in this video then feel free to ask in the comment section below and I'll do my best to answer those. If you enjoy these tutorials and would like to support them then there are several ways you can do that. The easiest way is to simply like the video and give it a thumbs up and also it's a huge help to share these videos with anyone who you think would find them useful and if you have the means you can contribute through Patreon and there's a link to that page in the description section below. Be sure to subscribe for future videos and thank you all for watching."
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "start": 0.0,
+        "end": 5.3,
+        "text": " in this course I'm going to teach you everything you need to know to get started programming in python."
+    },
+    {
+        "id": 1,
+        "start": 5.6000000000000005,
+        "end": 9.200000000000001,
+        "text": " a python is one of the most popular programming languages out there."
+    },
+    {
+        "id": 2,
+        "start": 9.4,
+        "end": 10.4,
+        "text": " and it's built on the"
+    }
+]
