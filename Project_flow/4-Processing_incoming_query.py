@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib 
-import json
 
 df=joblib.load('embeddings.joblib')
 
@@ -59,5 +58,3 @@ with open("response.txt","w")as f:
  f.write(result)
 
 
-# for index,item in new_df.iterrows():
-#  print(index,item['number'],item['title'],item['start'],item['end'],item['text'])

@@ -39,15 +39,5 @@ for json_file in jsons:
 df =pd.DataFrame.from_records(my_dict) 
 print(df)
 
-# Save this dataframe
 joblib.dump(df,'embeddings.joblib')
 
-
-# print(np.vstack(df['embedding'].values))
-# print(np.vstack(df["embedding"]).shape)
-
-# print(my_dict)
-# pd.DataFrame.from_records() is a Pandas constructor that creates a DataFrame from a list of records — where each record is typically a dictionary, tuple, or list representing a row.
-
-# a=create_embedding("the cat sat on the mat")
-# print(a[0:5])
