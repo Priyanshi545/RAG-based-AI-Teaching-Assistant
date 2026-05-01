@@ -1,30 +1,55 @@
 import requests
 import pandas as pd
 import numpy as np
+import sys
+from pathlib import Path
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib 
 
-df=joblib.load('embeddings.joblib')
+SCRIPT_DIR = Path(__file__).resolve().parent
+EMBEDDINGS_FILE = SCRIPT_DIR.parent / 'embeddings.joblib'
+
+try:
+    df = joblib.load(EMBEDDINGS_FILE)
+except FileNotFoundError:
+    print(f"Error: Could not find embeddings file at {EMBEDDINGS_FILE}")
+    sys.exit(1)
+except Exception as exc:
+    print(f"Failed to load embeddings: {exc}")
+    sys.exit(1)
+
+OLLAMA_URL = "http://localhost:11434/api"
+
+def ollama_request(endpoint, payload, timeout=120):
+    try:
+        r = requests.post(f"{OLLAMA_URL}/{endpoint}", json=payload, timeout=timeout)
+        r.raise_for_status()
+        response = r.json()
+        if not isinstance(response, dict):
+            raise ValueError("Unexpected Ollama response format")
+        return response
+    except requests.exceptions.RequestException as exc:
+        raise RuntimeError("Unable to reach Ollama. Make sure Ollama is running on localhost:11434.") from exc
+
 
 def create_embedding(text_list):
- r=requests.post("http://localhost:11434/api/embed", json={
-    "model":"qllama/bge-small-en-v1.5",
-    "input":text_list
- })
+    response = ollama_request("embed", {
+        "model":"nomic-embed-text",
+        "input":text_list
+    }, timeout=60)
+    embeddings = response.get("embeddings")
+    if embeddings is None:
+        raise RuntimeError("Ollama did not return embeddings.")
+    return embeddings
 
- embedding=r.json()["embeddings"]
- return embedding
 
 def inference(prompt):
- r=requests.post("http://localhost:11434/api/generate", json={
-    "model":"llama3.2:3b",
-    'prompt':prompt,
-    "stream":False
- })
-
- response=r.json()
- print(response)
- return response
+    response = ollama_request("generate", {
+        "model":"llama2",
+        'prompt':prompt,
+        "stream":False
+    }, timeout=120)
+    return response
  
 incoming_query=input("Ask your question:")
 question_embedding=create_embedding([incoming_query])[0]
@@ -52,9 +77,16 @@ The user asked this question related to the video chunks.Guide him by giving the
 with open("prompt.txt","w")as f:
  f.write(prompt)
 
-result=inference(prompt)["response"]
+try:
+    result_data = inference(prompt)
+    result = result_data.get("response") or result_data.get("text") or str(result_data)
+except Exception as exc:
+    print(f"Error generating response: {exc}")
+    result = "Failed to generate response"
+
 print(result)
 with open("response.txt","w")as f:
  f.write(result)
+
 
 

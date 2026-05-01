@@ -1,0 +1,11 @@
+The user has asked a question related to the content of the video chunks. I can help guide them by telling them where the content is taught in the video and at what timestamp.
+
+For the question "what is datatype", the relevant content can be found in the video titled "DataTypes" (video number 01). The text for this video is:
+
+"equal to three. Now Python has a built-in function called type, where we can see the data type of an object."
+
+The timestamp for this content in the video is around 00:30 (thirty seconds) into the video.
+
+So, to answer the user's question, I would say something like:
+
+"The information you're looking for is taught in Video 01, around 00:30. Please watch that section of the video to learn more about data types in Python."

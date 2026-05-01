@@ -1,11 +1,1 @@
-You're wondering about data types in Python.
-
-The concept of data types in Python is covered from minute 0 to minute 30 in video #01, "DataTypes". 
-
-In this part of the video, you'll learn how Python has a built-in function called `type` where you can see the data type of an object. The instructor explains that numbers are most commonly represented with integers and floats. 
-
-Later on (minute 35 to minute 55), the instructor talks about casting values from one data type to another, such as string to integer.
-
-If you want to know more about how Python treats the return value of a function, it's covered in video #03, "Functions". 
-
-Let me know if there's anything else I can help with.
+Failed to generate response

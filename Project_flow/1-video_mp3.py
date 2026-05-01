@@ -7,4 +7,3 @@ for file in file:
     audio_name=file.split("_")[1][:-4]
     # print(audio_number,  audio_name)
     subprocess.run(["ffmpeg",  "-i", f"Videos/{file}", f"audios/{audio_number}_{audio_name}.mp3"])
-    # subprocess.run["ffmpeg", "-i", f"audios/" -t 10 -c:a copy output.mp3]
